@@ -597,26 +597,30 @@
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
                 <!-- Stat 1 -->
                 <div
-                    class="flex flex-col items-center justify-center p-8 bg-white rounded-full aspect-square border-2 border-dashed border-rosental-200 relative group hover:border-rosental-400 transition-colors">
-                    <span class="text-4xl md:text-5xl font-serif text-rosental-500 mb-2 font-medium">400+</span>
+                    class="stat-card flex flex-col items-center justify-center p-8 bg-white rounded-full aspect-square border-2 border-dashed border-rosental-200 relative group hover:border-rosental-400 hover:scale-105 hover:shadow-lg hover:shadow-rosental-100 transition-all duration-300 cursor-pointer">
+                    <span class="stat-number text-4xl md:text-5xl font-serif text-rosental-500 mb-2 font-medium"
+                        data-target="400">0</span>
                     <span class="text-sm font-medium text-stone-400 uppercase tracking-wide">Weddings Planned</span>
                 </div>
                 <!-- Stat 2 -->
                 <div
-                    class="flex flex-col items-center justify-center p-8 bg-white rounded-full aspect-square border-2 border-dashed border-rosental-200 relative group hover:border-rosental-400 transition-colors">
-                    <span class="text-4xl md:text-5xl font-serif text-rosental-500 mb-2 font-medium">800+</span>
+                    class="stat-card flex flex-col items-center justify-center p-8 bg-white rounded-full aspect-square border-2 border-dashed border-rosental-200 relative group hover:border-rosental-400 hover:scale-105 hover:shadow-lg hover:shadow-rosental-100 transition-all duration-300 cursor-pointer">
+                    <span class="stat-number text-4xl md:text-5xl font-serif text-rosental-500 mb-2 font-medium"
+                        data-target="800">0</span>
                     <span class="text-sm font-medium text-stone-400 uppercase tracking-wide">Happy Couples</span>
                 </div>
                 <!-- Stat 3 -->
                 <div
-                    class="flex flex-col items-center justify-center p-8 bg-white rounded-full aspect-square border-2 border-dashed border-rosental-200 relative group hover:border-rosental-400 transition-colors">
-                    <span class="text-4xl md:text-5xl font-serif text-rosental-500 mb-2 font-medium">360+</span>
+                    class="stat-card flex flex-col items-center justify-center p-8 bg-white rounded-full aspect-square border-2 border-dashed border-rosental-200 relative group hover:border-rosental-400 hover:scale-105 hover:shadow-lg hover:shadow-rosental-100 transition-all duration-300 cursor-pointer">
+                    <span class="stat-number text-4xl md:text-5xl font-serif text-rosental-500 mb-2 font-medium"
+                        data-target="360">0</span>
                     <span class="text-sm font-medium text-stone-400 uppercase tracking-wide">Coordinations</span>
                 </div>
                 <!-- Stat 4 -->
                 <div
-                    class="flex flex-col items-center justify-center p-8 bg-white rounded-full aspect-square border-2 border-dashed border-rosental-200 relative group hover:border-rosental-400 transition-colors">
-                    <span class="text-4xl md:text-5xl font-serif text-rosental-500 mb-2 font-medium">16+</span>
+                    class="stat-card flex flex-col items-center justify-center p-8 bg-white rounded-full aspect-square border-2 border-dashed border-rosental-200 relative group hover:border-rosental-400 hover:scale-105 hover:shadow-lg hover:shadow-rosental-100 transition-all duration-300 cursor-pointer">
+                    <span class="stat-number text-4xl md:text-5xl font-serif text-rosental-500 mb-2 font-medium"
+                        data-target="16">0</span>
                     <span class="text-sm font-medium text-stone-400 uppercase tracking-wide">Years Service</span>
                 </div>
             </div>
@@ -1054,6 +1058,8 @@
         }
 
         // Scroll Animation
+        let statsAnimated = false;
+
         const animateOnScroll = () => {
             const elements = document.querySelectorAll('.group');
             elements.forEach(el => {
@@ -1063,6 +1069,42 @@
                     el.classList.add('opacity-100', 'translate-y-0');
                     el.classList.remove('opacity-0', 'translate-y-10');
                 }
+            });
+
+            // Animate stats counters when visible
+            const statsSection = document.querySelector('.stat-card');
+            if (statsSection && !statsAnimated) {
+                const rect = statsSection.getBoundingClientRect();
+                const isVisible = (rect.top <= window.innerHeight * 0.75);
+
+                if (isVisible) {
+                    statsAnimated = true;
+                    animateCounters();
+                }
+            }
+        }
+
+        // Counter Animation Function
+        function animateCounters() {
+            const counters = document.querySelectorAll('.stat-number');
+
+            counters.forEach(counter => {
+                const target = parseInt(counter.getAttribute('data-target'));
+                const duration = 2000; // 2 seconds
+                const increment = target / (duration / 16); // 60fps
+                let current = 0;
+
+                const updateCounter = () => {
+                    current += increment;
+                    if (current < target) {
+                        counter.textContent = Math.floor(current) + '+';
+                        requestAnimationFrame(updateCounter);
+                    } else {
+                        counter.textContent = target + '+';
+                    }
+                };
+
+                updateCounter();
             });
         }
         window.addEventListener('scroll', animateOnScroll);
