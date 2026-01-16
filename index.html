@@ -636,11 +636,11 @@
                         money on your dream wedding.
                     </p>
                     <div class="flex gap-4">
-                        <button
+                        <button onclick="scrollTestimonials('prev')"
                             class="w-12 h-12 rounded-full border border-stone-200 flex items-center justify-center hover:bg-stone-50 transition-colors text-stone-600">
                             <i data-lucide="arrow-left" class="w-5 h-5"></i>
                         </button>
-                        <button
+                        <button onclick="scrollTestimonials('next')"
                             class="w-12 h-12 rounded-full bg-rosental-400 text-white flex items-center justify-center hover:bg-rosental-500 transition-colors shadow-lg shadow-rosental-100">
                             <i data-lucide="arrow-right" class="w-5 h-5"></i>
                         </button>
@@ -648,7 +648,8 @@
                 </div>
 
                 <!-- Right Cards -->
-                <div class="lg:w-2/3 flex gap-6 overflow-x-auto no-scrollbar pb-10">
+                <div id="testimonials-container"
+                    class="lg:w-2/3 flex gap-6 overflow-x-auto no-scrollbar pb-10 scroll-smooth">
                     <!-- Review Card 1 -->
                     <div
                         class="min-w-[350px] bg-white border border-stone-100 rounded-3xl p-8 shadow-xl shadow-stone-100/50">
@@ -1012,6 +1013,18 @@
         // Initialize
         updateSlider(0);
         resetTimer();
+
+        // Testimonials Scroll Function
+        function scrollTestimonials(direction) {
+            const container = document.getElementById('testimonials-container');
+            const scrollAmount = 370; // Card width (350px) + gap (24px)
+
+            if (direction === 'next') {
+                container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            } else {
+                container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+            }
+        }
 
         // Scroll Animation
         const animateOnScroll = () => {
