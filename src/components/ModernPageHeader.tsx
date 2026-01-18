@@ -11,7 +11,7 @@ const ModernPageHeader: React.FC<ModernPageHeaderProps> = ({ title, subtitle }) 
     return (
         <header className="relative pt-32 pb-16 md:pt-40 md:pb-24 px-6 overflow-hidden bg-rosental-50">
             <div className="max-w-7xl mx-auto relative z-10">
-                <div className="flex flex-col md:flex-row items-end md:items-center justify-between gap-8">
+                <div className="flex flex-col items-center justify-center gap-8 text-center">
                     <div className="max-w-2xl">
                         <motion.span
                             initial={{ opacity: 0, y: 20 }}
