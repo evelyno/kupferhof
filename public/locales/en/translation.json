@@ -588,6 +588,48 @@
                     "text": "If you send us inquiries via the contact form, your details from the inquiry form, including the contact details you provided there, will be stored by us for the purpose of processing the inquiry and in case of follow-up questions. We do not pass on this data without your consent."
                 }
             }
+        },
+        "blog": {
+            "seo": {
+                "index_title": "Blog & Inspiration | Kupferhof Rosental",
+                "index_description": "Latest news, wedding inspiration, and behind-the-scenes insights from Kupferhof Rosental."
+            },
+            "header": {
+                "title": "Journal.",
+                "subtitle": "Stories, inspiration, and news from the Kupferhof."
+            },
+            "ui": {
+                "read_article": "Read Article",
+                "back_to_overview": "Back to Overview",
+                "share_article": "Share Article",
+                "by": "By"
+            },
+            "posts": [
+                {
+                    "title": "Magical Winter Weddings: Pure Romance at Kupferhof",
+                    "excerpt": "Why a winter wedding has its very own magic and how we perfectly showcase it at Kupferhof Rosental.",
+                    "content": "<p class=\"mb-6\">When snowflakes dance outside and the historic courtyard is bathed in white light, Kupferhof Rosental unfolds a very special magic. Winter weddings are becoming increasingly popular – and for good reason.</p><h3 class=\"text-2xl font-serif text-rosental-950 mb-4 mt-8\">Coziness Meets Elegance</h3><p class=\"mb-6\">Unlike summer, where heat often weighs down, winter offers the opportunity for cozy moments. Our fireplace room with its crackling fire is the perfect place for the champagne reception. Candlelight, warm colors, and heavy fabrics create an atmosphere of comfort and luxury.</p><h3 class=\"text-2xl font-serif text-rosental-950 mb-4 mt-8\">Culinary Highlights</h3><p class=\"mb-6\">Culinarily, winter allows for heartier and more intense flavors. Game dishes, winter root vegetables, and of course a dessert buffet with cinnamon, baked apples, and chocolate make guests' hearts beat faster.</p>",
+                    "author": "Anna Rosental",
+                    "category": "Inspiration",
+                    "date": "2025-12-10"
+                },
+                {
+                    "title": "Green Events: Sustainability at Your Event",
+                    "excerpt": "How you can design your event in an environmentally conscious way without sacrificing style and exclusivity.",
+                    "content": "<p class=\"mb-6\">Sustainability is not a trend, but a necessity. At Kupferhof Rosental, we actively work to conserve resources.</p><p class=\"mb-6\">This starts with selecting our catering partners, who primarily use regional and seasonal products, and extends to our energy concept.</p>",
+                    "author": "Team Rosental",
+                    "category": "Sustainability",
+                    "date": "2025-11-05"
+                },
+                {
+                    "title": "Event Trends 2026: What's Coming, What's Staying?",
+                    "excerpt": "An outlook on the colors, shapes, and concepts that will shape the upcoming event year.",
+                    "content": "<p class=\"mb-6\">The year 2026 is all about individuality. \"Micro-weddings\" – small but extremely high-quality celebrations – continue to trend.</p><p class=\"mb-6\">In terms of color, we see a return to strong earth tones (terracotta, moss green) combined with metallic accents in copper and bronze – which of course perfectly matches our location.</p>",
+                    "author": "Lina Design",
+                    "category": "Trends",
+                    "date": "2025-10-20"
+                }
+            ]
         }
     }
 }

@@ -1,23 +1,27 @@
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import ModernPageHeader from '../../components/ModernPageHeader';
 import Contact from '../../components/Contact';
-import { blogPosts } from '../../data/blogPosts';
+import { useBlogPosts } from '../../data/blogPosts';
 import { ArrowRight } from 'lucide-react';
 
 const BlogIndex = () => {
+    const { t, i18n } = useTranslation();
+    const blogPosts = useBlogPosts();
+
     return (
         <>
             <Helmet>
-                <title>Blog & Inspiration | Kupferhof Rosental</title>
-                <meta name="description" content="Aktuelle News, Inspirationen für Ihre Hochzeit und Einblicke hinter die Kulissen des Kupferhof Rosental." />
+                <title>{t('blog.seo.index_title')}</title>
+                <meta name="description" content={t('blog.seo.index_description')} />
                 <link rel="canonical" href="https://www.kupferhof-rosental.de/blog" />
             </Helmet>
 
             <ModernPageHeader
-                title="Journal."
-                subtitle="Geschichten, Inspirationen und Neuigkeiten aus dem Kupferhof."
+                title={t('blog.header.title')}
+                subtitle={t('blog.header.subtitle')}
             />
 
             <section className="py-24 bg-white">
@@ -43,7 +47,7 @@ const BlogIndex = () => {
                                     <div className="flex items-center gap-3 text-xs font-medium tracking-widest text-rosental-500 uppercase mb-3">
                                         <span>{post.category}</span>
                                         <span className="w-1 h-1 bg-rosental-300 rounded-full" />
-                                        <span>{new Date(post.date).toLocaleDateString('de-DE', { month: 'long', year: 'numeric' })}</span>
+                                        <span>{new Date(post.date).toLocaleDateString(i18n.language, { month: 'long', year: 'numeric' })}</span>
                                     </div>
                                     <h3 className="text-2xl font-serif text-stone-900 mb-3 group-hover:text-rosental-600 transition-colors">
                                         <Link to={`/blog/${post.slug}`}>{post.title}</Link>
@@ -53,7 +57,7 @@ const BlogIndex = () => {
                                     </p>
                                     <div className="mt-auto">
                                         <Link to={`/blog/${post.slug}`} className="inline-flex items-center gap-2 text-rosental-900 font-medium hover:gap-3 transition-all">
-                                            Artikel lesen <ArrowRight className="w-4 h-4" />
+                                            {t('blog.ui.read_article')} <ArrowRight className="w-4 h-4" />
                                         </Link>
                                     </div>
                                 </div>

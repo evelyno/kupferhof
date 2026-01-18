@@ -588,6 +588,48 @@
                     "text": "Si vous nous envoyez des demandes via le formulaire de contact, vos coordonnées du formulaire de demande, y compris les coordonnées que vous y avez fournies, seront stockées par nous dans le but de traiter la demande et en cas de questions de suivi. Nous ne transmettons pas ces données sans votre consentement."
                 }
             }
+        },
+        "blog": {
+            "seo": {
+                "index_title": "Blog & Inspiration | Kupferhof Rosental",
+                "index_description": "Actualités, inspiration pour votre mariage et aperçus des coulisses du Kupferhof Rosental."
+            },
+            "header": {
+                "title": "Journal.",
+                "subtitle": "Histoires, inspiration et nouvelles du Kupferhof."
+            },
+            "ui": {
+                "read_article": "Lire l'article",
+                "back_to_overview": "Retour à l'aperçu",
+                "share_article": "Partager l'article",
+                "by": "Par"
+            },
+            "posts": [
+                {
+                    "title": "Mariages d'hiver magiques : Romance pure au Kupferhof",
+                    "excerpt": "Pourquoi un mariage en hiver a sa propre magie et comment nous le mettons parfaitement en scène au Kupferhof Rosental.",
+                    "content": "<p class=\"mb-6\">Lorsque les flocons de neige dansent dehors et que la cour historique est baignée de lumière blanche, le Kupferhof Rosental déploie une magie très spéciale. Les mariages d'hiver deviennent de plus en plus populaires – et pour de bonnes raisons.</p><h3 class=\"text-2xl font-serif text-rosental-950 mb-4 mt-8\">Le confort rencontre l'élégance</h3><p class=\"mb-6\">Contrairement à l'été, où la chaleur pèse souvent, l'hiver offre la possibilité de moments douillets. Notre salle de cheminée avec son feu crépitant est l'endroit parfait pour la réception au champagne. Lumière des bougies, couleurs chaudes et tissus lourds créent une atmosphère de confort et de luxe.</p><h3 class=\"text-2xl font-serif text-rosental-950 mb-4 mt-8\">Points forts culinaires</h3><p class=\"mb-6\">Sur le plan culinaire, l'hiver permet des saveurs plus copieuses et plus intenses. Plats de gibier, légumes-racines d'hiver et bien sûr un buffet de desserts avec cannelle, pommes au four et chocolat font battre le cœur des invités.</p>",
+                    "author": "Anna Rosental",
+                    "category": "Inspiration",
+                    "date": "2025-12-10"
+                },
+                {
+                    "title": "Événements verts : Durabilité lors de votre événement",
+                    "excerpt": "Comment concevoir votre événement de manière écologique sans sacrifier le style et l'exclusivité.",
+                    "content": "<p class=\"mb-6\">La durabilité n'est pas une tendance, mais une nécessité. Au Kupferhof Rosental, nous nous engageons activement à préserver les ressources.</p><p class=\"mb-6\">Cela commence par le choix de nos partenaires de restauration, qui utilisent principalement des produits régionaux et de saison, et s'étend jusqu'à notre concept énergétique.</p>",
+                    "author": "Team Rosental",
+                    "category": "Durabilité",
+                    "date": "2025-11-05"
+                },
+                {
+                    "title": "Tendances événementielles 2026 : Qu'est-ce qui arrive, qu'est-ce qui reste ?",
+                    "excerpt": "Un aperçu des couleurs, formes et concepts qui marqueront l'année événementielle à venir.",
+                    "content": "<p class=\"mb-6\">L'année 2026 est placée sous le signe de l'individualité. Les \"micro-mariages\" – de petites célébrations mais de très haute qualité – continuent de faire tendance.</p><p class=\"mb-6\">En termes de couleur, nous voyons un retour aux tons terreux forts (terracotta, vert mousse) combinés avec des accents métalliques en cuivre et bronze – ce qui correspond parfaitement à notre lieu.</p>",
+                    "author": "Lina Design",
+                    "category": "Tendances",
+                    "date": "2025-10-20"
+                }
+            ]
         }
     }
 }

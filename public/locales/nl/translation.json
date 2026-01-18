@@ -588,6 +588,48 @@
                     "text": "Als u ons vragen stelt via het contactformulier, worden uw gegevens uit het aanvraagformulier, inclusief de contactgegevens die u daar hebt opgegeven, door ons opgeslagen voor het verwerken van de aanvraag en in geval van vervolgvragen. Wij geven deze gegevens niet door zonder uw toestemming."
                 }
             }
+        },
+        "blog": {
+            "seo": {
+                "index_title": "Blog & Inspiratie | Kupferhof Rosental",
+                "index_description": "Actueel nieuws, bruiloftinspiratie en kijkjes achter de schermen van Kupferhof Rosental."
+            },
+            "header": {
+                "title": "Journaal.",
+                "subtitle": "Verhalen, inspiratie en nieuws van de Kupferhof."
+            },
+            "ui": {
+                "read_article": "Artikel lezen",
+                "back_to_overview": "Terug naar overzicht",
+                "share_article": "Artikel delen",
+                "by": "Door"
+            },
+            "posts": [
+                {
+                    "title": "Magische winterbruiloften: Pure romantiek in de Kupferhof",
+                    "excerpt": "Waarom een winterbruiloft zijn eigen magie heeft en hoe wij dit perfect in scène zetten in Kupferhof Rosental.",
+                    "content": "<p class=\"mb-6\">Wanneer buiten de sneeuwvlokken dansen en de historische binnenplaats in wit licht is gehuld, ontvouwt Kupferhof Rosental een heel bijzondere magie. Winterbruiloften worden steeds populairder – en dat is niet voor niets.</p><h3 class=\"text-2xl font-serif text-rosental-950 mb-4 mt-8\">Gezelligheid ontmoet elegantie</h3><p class=\"mb-6\">In tegenstelling tot de zomer, waar de hitte vaak drukkend is, biedt de winter de mogelijkheid voor knusse momenten. Onze open haardkamer met het knapperend vuur is de perfecte plek voor de champagne-ontvangst. Kaarslicht, warme kleuren en zware stoffen creëren een sfeer van geborgenheid en luxe.</p><h3 class=\"text-2xl font-serif text-rosental-950 mb-4 mt-8\">Culinaire hoogtepunten</h3><p class=\"mb-6\">Ook culinair mag het in de winter steviger en intenser. Wildgerechten, winterse wortelgroenten en natuurlijk een dessertbuffet met kaneel, gebakken appel en chocolade laten de harten van de gasten sneller kloppen.</p>",
+                    "author": "Anna Rosental",
+                    "category": "Inspiratie",
+                    "date": "2025-12-10"
+                },
+                {
+                    "title": "Groene evenementen: Duurzaamheid bij uw evenement",
+                    "excerpt": "Hoe u uw evenement milieubewust kunt vormgeven zonder in te boeten op stijl en exclusiviteit.",
+                    "content": "<p class=\"mb-6\">Duurzaamheid is geen trend, maar een noodzaak. Wij bij Kupferhof Rosental zetten ons actief in om hulpbronnen te sparen.</p><p class=\"mb-6\">Dit begint bij de keuze van onze cateringpartners, die voornamelijk regionale en seizoensgebonden producten gebruiken, en gaat tot aan ons energieconcept.</p>",
+                    "author": "Team Rosental",
+                    "category": "Duurzaamheid",
+                    "date": "2025-11-05"
+                },
+                {
+                    "title": "Evenemententrends 2026: Wat komt, wat blijft?",
+                    "excerpt": "Een vooruitblik op de kleuren, vormen en concepten die het komende evenementenjaar zullen bepalen.",
+                    "content": "<p class=\"mb-6\">Het jaar 2026 staat volledig in het teken van individualiteit. \"Micro-bruiloften\" – kleine maar extreem hoogwaardige feesten – blijven in de trend.</p><p class=\"mb-6\">Qua kleur zien we een terugkeer naar krachtige aardtinten (terracotta, mosgroen) gecombineerd met metallische accenten in koper en brons – wat natuurlijk perfect past bij onze locatie.</p>",
+                    "author": "Lina Design",
+                    "category": "Trends",
+                    "date": "2025-10-20"
+                }
+            ]
         }
     }
 }

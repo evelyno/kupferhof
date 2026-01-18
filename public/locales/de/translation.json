@@ -588,6 +588,48 @@
                     "text": "Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter."
                 }
             }
+        },
+        "blog": {
+            "seo": {
+                "index_title": "Blog & Inspiration | Kupferhof Rosental",
+                "index_description": "Aktuelle News, Inspirationen für Ihre Hochzeit und Einblicke hinter die Kulissen des Kupferhof Rosental."
+            },
+            "header": {
+                "title": "Journal.",
+                "subtitle": "Geschichten, Inspirationen und Neuigkeiten aus dem Kupferhof."
+            },
+            "ui": {
+                "read_article": "Artikel lesen",
+                "back_to_overview": "Zurück zur Übersicht",
+                "share_article": "Artikel teilen",
+                "by": "Von"
+            },
+            "posts": [
+                {
+                    "title": "Magische Winterhochzeiten: Romantik pur im Kupferhof",
+                    "excerpt": "Warum eine Hochzeit im Winter ihren ganz eigenen Zauber hat und wie wir diesen im Kupferhof Rosental perfekt in Szene setzen.",
+                    "content": "<p class=\"mb-6\">Wenn draußen die Schneeflocken tanzen und der historische Innenhof in weißes Licht getaucht ist, entfaltet der Kupferhof Rosental eine ganz besondere Magie. Winterhochzeiten werden immer beliebter – und das aus gutem Grund.</p><h3 class=\"text-2xl font-serif text-rosental-950 mb-4 mt-8\">Gemütlichkeit trifft Eleganz</h3><p class=\"mb-6\">Anders als im Sommer, wo oft die Hitze drückt, bietet der Winter die Möglichkeit für kuschelige Momente. Unser Kaminzimmer mit dem prasselnden Feuer ist der perfekte Ort für den Sektempfang. Kerzenschein, warme Farben und schwere Stoffe schaffen eine Atmosphäre von Geborgenheit und Luxus.</p><h3 class=\"text-2xl font-serif text-rosental-950 mb-4 mt-8\">Kulinarische Highlights</h3><p class=\"mb-6\">Auch kulinarisch darf es im Winter deftiger und intensiver zugehen. Wildgerichte, winterliches Wurzelgemüse und natürlich ein Dessertbuffet mit Zimt, Bratapfel und Schokolade lassen die Herzen der Gäste höherschlagen.</p>",
+                    "author": "Anna Rosental",
+                    "category": "Inspiration",
+                    "date": "2025-12-10"
+                },
+                {
+                    "title": "Green Events: Nachhaltigkeit bei Ihrer Veranstaltung",
+                    "excerpt": "Wie Sie Ihr Event umweltbewusst gestalten können, ohne auf Stil und Exklusivität zu verzichten.",
+                    "content": "<p class=\"mb-6\">Nachhaltigkeit ist kein Trend, sondern eine Notwendigkeit. Wir im Kupferhof Rosental setzen uns aktiv dafür ein, Ressourcen zu schonen.</p><p class=\"mb-6\">Das beginnt bei der Auswahl unserer Catering-Partner, die vorwiegend regionale und saisonale Produkte verwenden, und geht bis hin zu unserem Energiekonzept.</p>",
+                    "author": "Team Rosental",
+                    "category": "Nachhaltigkeit",
+                    "date": "2025-11-05"
+                },
+                {
+                    "title": "Event-Trends 2026: Was kommt, was bleibt?",
+                    "excerpt": "Ein Ausblick auf die Farben, Formen und Konzepte, die das kommende Event-Jahr prägen werden.",
+                    "content": "<p class=\"mb-6\">Das Jahr 2026 steht ganz im Zeichen von Individualität. \"Micro-Weddings\" – kleine, aber extrem hochwertige Feiern – liegen weiterhin im Trend.</p><p class=\"mb-6\">Farblich sehen wir eine Rückkehr zu kräftigen Erdtönen (Terrakotta, Moosgrün) kombiniert mit metallischen Akzenten in Kupfer und Bronze – was natürlich perfekt zu unserer Location passt.</p>",
+                    "author": "Lina Design",
+                    "category": "Trends",
+                    "date": "2025-10-20"
+                }
+            ]
         }
     }
 }
