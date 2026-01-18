@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://www.kupferhof-rosental.de/sitemap.xml
