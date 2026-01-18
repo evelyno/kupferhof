@@ -8,12 +8,63 @@
         "about": "À Propos",
         "contact": "Contact"
     },
+    "hero": {
+        "slides": {
+            "0": {
+                "subtitle": "Lieu Exclusif",
+                "title": "Kupferhof Rosental",
+                "subtitle2": "Ambiance Historique",
+                "tag": "DEPUIS LE 17E S.",
+                "cta": "Découvrir le Kupferhof"
+            },
+            "1": {
+                "subtitle": "Nature & Romantisme",
+                "title": "La Roseraie",
+                "subtitle2": "Cérémonies en Plein Air",
+                "tag": "EXTÉRIEUR",
+                "cta": "Explorer le Jardin"
+            },
+            "2": {
+                "subtitle": "Intérieur Luxueux",
+                "title": "La Grande Salle de Bal",
+                "subtitle2": "Célébrations Élégantes",
+                "tag": "INTÉRIEUR",
+                "cta": "Voir la Salle"
+            }
+        }
+    },
+    "services": {
+        "title": "Nos Services",
+        "subtitle": "Tout pour votre jour parfait à Stolberg",
+        "cards": {
+            "0": {
+                "title": "Célébrations Exclusives",
+                "description": "Des réceptions intimes aux grandes fêtes de mariage dans la salle de bal. Nous créons des moments inoubliables pour vous et vos invités."
+            },
+            "1": {
+                "title": "Mariages en Plein Air",
+                "description": "Dites \"Oui\" dans notre roseraie pittoresque ou dans l'ambiance historique de la cour. Romantisme pur au cœur de la région d'Aix-la-Chapelle."
+            },
+            "2": {
+                "title": "Événements d'Entreprise",
+                "description": "Réunions et conférences inspirantes dans un cadre historique. Impressionnez vos clients et collaborateurs avec un lieu unique."
+            }
+        }
+    },
     "footer": {
-        "contact": "Contact",
-        "address": "Adresse",
+        "brand": "Kupferhof Rosental.<br />Ambiance historique pour<br />rencontres modernes.",
+        "menu": "Menu",
         "legal": "Mentions Légales",
-        "impressum": "Mentions Légales",
-        "privacy": "Confidentialité",
-        "terms": "CGV"
+        "contact": {
+            "title": "Contact",
+            "address": "Rathausstrasse 65-69,<br />52222 Stolberg (Rhld.)"
+        },
+        "links": {
+            "impressum": "Mentions Légales",
+            "privacy": "Confidentialité",
+            "terms": "CGV",
+            "press": "Presse"
+        },
+        "rights": "© {{year}} Kupferhof Rosental. Tous droits réservés."
     }
 }

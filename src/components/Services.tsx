@@ -1,26 +1,29 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Wine, Heart, Briefcase } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-const services = [
-    {
-        icon: <Wine className="w-6 h-6 text-rosental-500" />,
-        title: 'Exklusive Feiern',
-        description: 'Von intimen Empfängen bis hin zu großen Hochzeitsfesten im Ballsaal. Wir gestalten unvergessliche Momente für Sie und Ihre Gäste.'
-    },
-    {
-        icon: <Heart className="w-6 h-6 text-rosental-500" />,
-        title: 'Freie Trauungen',
-        description: 'Sagen Sie "Ja" in unserem malerischen Rosengarten oder im historischen Ambiente des Hofes. Romantik pur im Herzen der Region Aachen.'
-    },
-    {
-        icon: <Briefcase className="w-6 h-6 text-rosental-500" />,
-        title: 'Firmenevents',
-        description: 'Inspirierende Meetings und Tagungen in historischer Kulisse. Beeindrucken Sie Ihre Kunden und Mitarbeiter mit einer besonderen Location.'
-    }
-];
-
 const Services = () => {
+    const { t } = useTranslation();
+
+    const services = [
+        {
+            icon: <Wine className="w-6 h-6 text-rosental-500" />,
+            title: t('services.cards.0.title'),
+            description: t('services.cards.0.description')
+        },
+        {
+            icon: <Heart className="w-6 h-6 text-rosental-500" />,
+            title: t('services.cards.1.title'),
+            description: t('services.cards.1.description')
+        },
+        {
+            icon: <Briefcase className="w-6 h-6 text-rosental-500" />,
+            title: t('services.cards.2.title'),
+            description: t('services.cards.2.description')
+        }
+    ];
+
     return (
         <section id="services" className="py-24 bg-white relative">
             <div className="absolute top-0 left-0 right-0 h-16 bg-rosental-50 rounded-b-[50%] lg:rounded-b-[100%] scale-x-110 opacity-30" />
@@ -32,8 +35,8 @@ const Services = () => {
                     transition={{ duration: 0.8 }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-4xl md:text-5xl font-medium text-stone-900 font-serif tracking-tight mb-4">Unser Angebot</h2>
-                    <p className="text-lg text-stone-500">Alles für Ihren perfekten Tag in Stolberg</p>
+                    <h2 className="text-4xl md:text-5xl font-medium text-stone-900 font-serif tracking-tight mb-4">{t('services.title')}</h2>
+                    <p className="text-lg text-stone-500">{t('services.subtitle')}</p>
                 </motion.div>
 
                 <div className="grid md:grid-cols-3 gap-8">

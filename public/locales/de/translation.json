@@ -8,12 +8,63 @@
         "about": "Über Uns",
         "contact": "Kontakt"
     },
+    "hero": {
+        "slides": {
+            "0": {
+                "subtitle": "Exklusive Location",
+                "title": "Kupferhof Rosental",
+                "subtitle2": "Historisches Ambiente",
+                "tag": "SEIT 17. JH",
+                "cta": "Kupferhof Entdecken"
+            },
+            "1": {
+                "subtitle": "Natur & Romantik",
+                "title": "Der Rosengarten",
+                "subtitle2": "Trauung im Freien",
+                "tag": "OUTDOOR",
+                "cta": "Garten Erkunden"
+            },
+            "2": {
+                "subtitle": "Luxuriöses Interieur",
+                "title": "Der Große Ballsaal",
+                "subtitle2": "Elegante Feierlichkeiten",
+                "tag": "INTERIOR",
+                "cta": "Saal Ansehen"
+            }
+        }
+    },
+    "services": {
+        "title": "Unser Angebot",
+        "subtitle": "Alles für Ihren perfekten Tag in Stolberg",
+        "cards": {
+            "0": {
+                "title": "Exklusive Feiern",
+                "description": "Von intimen Empfängen bis hin zu großen Hochzeitsfesten im Ballsaal. Wir gestalten unvergessliche Momente für Sie und Ihre Gäste."
+            },
+            "1": {
+                "title": "Freie Trauungen",
+                "description": "Sagen Sie \"Ja\" in unserem malerischen Rosengarten oder im historischen Ambiente des Hofes. Romantik pur im Herzen der Region Aachen."
+            },
+            "2": {
+                "title": "Firmenevents",
+                "description": "Inspirierende Meetings und Tagungen in historischer Kulisse. Beeindrucken Sie Ihre Kunden und Mitarbeiter mit einer besonderen Location."
+            }
+        }
+    },
     "footer": {
-        "contact": "Kontakt",
-        "address": "Adresse",
+        "brand": "Kupferhof Rosental.<br />Historisches Ambiente für<br />moderne Begegnungen.",
+        "menu": "Menu",
         "legal": "Rechtliches",
-        "impressum": "Impressum",
-        "privacy": "Datenschutz",
-        "terms": "AGB"
+        "contact": {
+            "title": "Kontakt",
+            "address": "Rathausstrasse 65-69,<br />52222 Stolberg (Rhld.)"
+        },
+        "links": {
+            "impressum": "Impressum",
+            "privacy": "Datenschutz",
+            "terms": "AGB Events",
+            "press": "Presse"
+        },
+        "rights": "© {{year}} Kupferhof Rosental. Alle Rechte vorbehalten."
     }
 }

@@ -1,39 +1,41 @@
 import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import { ChevronRight, ChevronLeft, Facebook, Instagram, Twitter, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const slides = [
-    {
-        id: 0,
-        image: '/assets/kupferhof.jpeg',
-        subtitle: 'Exklusive Location',
-        title: 'Kupferhof Rosental',
-        subtitle2: 'Historisches Ambiente',
-        tag: 'SEIT 17. JH',
-        cta: 'Kupferhof Entdecken'
-    },
-    {
-        id: 1,
-        image: '/assets/pavillons.jpg',
-        subtitle: 'Natur & Romantik',
-        title: 'Der Rosengarten',
-        subtitle2: 'Trauung im Freien',
-        tag: 'OUTDOOR',
-        cta: 'Garten Erkunden'
-    },
-    {
-        id: 2,
-        image: '/assets/brautpaar-kupferhof.jpg',
-        subtitle: 'Luxuriöses Interieur',
-        title: 'Der Große Ballsaal',
-        subtitle2: 'Elegante Feierlichkeiten',
-        tag: 'INTERIOR',
-        cta: 'Saal Ansehen'
-    }
-];
-
-const Hero = () => {
+const Hero = () => { // Move hook inside component
+    const { t } = useTranslation();
     const [currentSlide, setCurrentSlide] = useState(0);
+
+    const slides = [
+        {
+            id: 0,
+            image: '/assets/kupferhof.jpeg',
+            subtitle: t('hero.slides.0.subtitle'),
+            title: t('hero.slides.0.title'),
+            subtitle2: t('hero.slides.0.subtitle2'),
+            tag: t('hero.slides.0.tag'),
+            cta: t('hero.slides.0.cta')
+        },
+        {
+            id: 1,
+            image: '/assets/pavillons.jpg',
+            subtitle: t('hero.slides.1.subtitle'),
+            title: t('hero.slides.1.title'),
+            subtitle2: t('hero.slides.1.subtitle2'),
+            tag: t('hero.slides.1.tag'),
+            cta: t('hero.slides.1.cta')
+        },
+        {
+            id: 2,
+            image: '/assets/brautpaar-kupferhof.jpg',
+            subtitle: t('hero.slides.2.subtitle'),
+            title: t('hero.slides.2.title'),
+            subtitle2: t('hero.slides.2.subtitle2'),
+            tag: t('hero.slides.2.tag'),
+            cta: t('hero.slides.2.cta')
+        }
+    ];
 
     useEffect(() => {
         const timer = setInterval(() => {
