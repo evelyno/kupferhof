@@ -1,0 +1,19 @@
+{
+    "nav": {
+        "welcome": "Bienvenue",
+        "weddings": "Mariages",
+        "events": "Événements",
+        "accommodation": "Séjour",
+        "catering": "Traiteur",
+        "about": "À Propos",
+        "contact": "Contact"
+    },
+    "footer": {
+        "contact": "Contact",
+        "address": "Adresse",
+        "legal": "Mentions Légales",
+        "impressum": "Mentions Légales",
+        "privacy": "Confidentialité",
+        "terms": "CGV"
+    }
+}

@@ -2,8 +2,10 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { cn } from '../lib/utils';
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
+    const { t, i18n } = useTranslation();
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const location = useLocation();
@@ -21,15 +23,11 @@ const Navbar = () => {
         setIsMobileMenuOpen(false);
     }, [location]);
 
+    const changeLanguage = (lng: string) => {
+        i18n.changeLanguage(lng);
+    };
+
     const isHome = location.pathname === '/';
-
-    // Determine nav style based on scroll and page
-    // If not home, we default to dark text until scrolled (or transparency logic differs)
-    // Actually, for the new "white" headers, we always want dark text unless it's dark image background.
-    // The user requested "gut zu erkennen".
-    // For Home (Hero), it's white text on transparent (scrolling turns to white bg with dark text).
-    // For Subpages (ModernPageHeader), it's white bg, so we need dark text immediately.
-
     const isDarkText = isScrolled || !isHome;
 
     return (
@@ -52,28 +50,40 @@ const Navbar = () => {
                         )}
                     />
                 </Link>
-                <div className="hidden md:flex items-center space-x-10 text-sm font-medium tracking-wide">
-                    <Link to="/hochzeiten" className="hover:text-rosental-500 transition-colors opacity-80">Hochzeiten</Link>
-                    <Link to="/veranstaltungen" className="hover:text-rosental-500 transition-colors opacity-80">Veranstaltungen</Link>
-                    <Link to="/location" className="hover:text-rosental-500 transition-colors opacity-80">Location</Link>
-                    <Link to="/kulinarik" className="hover:text-rosental-500 transition-colors opacity-80">Kulinarik</Link>
-                    <Link to="/kontakt" className="hover:text-rosental-500 transition-colors opacity-80">Kontakt</Link>
+
+                {/* Desktop Menu */}
+                <div className="hidden xl:flex items-center space-x-8 text-sm font-medium tracking-wide">
+                    <Link to="/hochzeiten" className="hover:text-rosental-500 transition-colors opacity-90">{t('nav.weddings')}</Link>
+                    <Link to="/veranstaltungen" className="hover:text-rosental-500 transition-colors opacity-90">{t('nav.events')}</Link>
+                    <Link to="/uebernachten" className="hover:text-rosental-500 transition-colors opacity-90">{t('nav.accommodation')}</Link>
+                    <Link to="/kulinarik" className="hover:text-rosental-500 transition-colors opacity-90">{t('nav.catering')}</Link>
+                    <Link to="/ueber-uns" className="hover:text-rosental-500 transition-colors opacity-90">{t('nav.about')}</Link>
+                    <Link to="/kontakt" className="hover:text-rosental-500 transition-colors opacity-90">{t('nav.contact')}</Link>
                 </div>
 
-                <div className="flex items-center space-x-4">
+                <div className="flex items-center space-x-6">
+                    {/* Language Switcher */}
+                    <div className="hidden md:flex items-center space-x-2 text-xs font-medium uppercase tracking-widest opacity-80">
+                        <button onClick={() => changeLanguage('de')} className={cn("hover:text-rosental-500 transition-colors", i18n.language === 'de' && "font-bold underline")}>DE</button>
+                        <span>|</span>
+                        <button onClick={() => changeLanguage('en')} className={cn("hover:text-rosental-500 transition-colors", i18n.language === 'en' && "font-bold underline")}>EN</button>
+                        <span>|</span>
+                        <button onClick={() => changeLanguage('fr')} className={cn("hover:text-rosental-500 transition-colors", i18n.language === 'fr' && "font-bold underline")}>FR</button>
+                    </div>
+
                     <Link to="/kontakt" className={cn(
                         "hidden md:block px-6 py-2 rounded-full text-sm font-medium transition-all border",
                         isDarkText
                             ? "bg-rosental-500 text-white border-rosental-500 hover:bg-rosental-600 shadow-sm"
                             : "bg-white/10 backdrop-blur-sm text-white border-white/20 hover:bg-white/20"
                     )}>
-                        Anfrage senden
+                        Anfrage
                     </Link>
 
                     <button
                         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                         className={cn(
-                            "group p-1 rounded-full transition-colors backdrop-blur-sm z-50 relative md:hidden",
+                            "group p-1 rounded-full transition-colors backdrop-blur-sm z-50 relative xl:hidden",
                             isDarkText ? "hover:bg-rosental-50 text-stone-800" : "hover:bg-white/10 text-white"
                         )}
                     >
@@ -89,11 +99,19 @@ const Navbar = () => {
                     isMobileMenuOpen ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"
                 )}
             >
-                <Link to="/hochzeiten" className="text-2xl font-serif text-white hover:text-rosental-400 transition-colors">Hochzeiten</Link>
-                <Link to="/veranstaltungen" className="text-2xl font-serif text-white hover:text-rosental-400 transition-colors">Veranstaltungen</Link>
-                <Link to="/location" className="text-2xl font-serif text-white hover:text-rosental-400 transition-colors">Location</Link>
-                <Link to="/kulinarik" className="text-2xl font-serif text-white hover:text-rosental-400 transition-colors">Kulinarik</Link>
-                <Link to="/kontakt" className="text-2xl font-serif text-white hover:text-rosental-400 transition-colors">Kontakt</Link>
+                <Link to="/hochzeiten" className="text-2xl font-serif text-white hover:text-rosental-400 transition-colors">{t('nav.weddings')}</Link>
+                <Link to="/veranstaltungen" className="text-2xl font-serif text-white hover:text-rosental-400 transition-colors">{t('nav.events')}</Link>
+                <Link to="/uebernachten" className="text-2xl font-serif text-white hover:text-rosental-400 transition-colors">{t('nav.accommodation')}</Link>
+                <Link to="/kulinarik" className="text-2xl font-serif text-white hover:text-rosental-400 transition-colors">{t('nav.catering')}</Link>
+                <Link to="/ueber-uns" className="text-2xl font-serif text-white hover:text-rosental-400 transition-colors">{t('nav.about')}</Link>
+                <Link to="/kontakt" className="text-2xl font-serif text-white hover:text-rosental-400 transition-colors">{t('nav.contact')}</Link>
+
+                {/* Mobile Lang Switcher */}
+                <div className="flex items-center space-x-6 text-white pt-8 border-t border-white/10 w-48 justify-center">
+                    <button onClick={() => changeLanguage('de')} className={cn("text-lg hover:text-rosental-400", i18n.language === 'de' && "font-bold text-rosental-400")}>DE</button>
+                    <button onClick={() => changeLanguage('en')} className={cn("text-lg hover:text-rosental-400", i18n.language === 'en' && "font-bold text-rosental-400")}>EN</button>
+                    <button onClick={() => changeLanguage('fr')} className={cn("text-lg hover:text-rosental-400", i18n.language === 'fr' && "font-bold text-rosental-400")}>FR</button>
+                </div>
             </div>
         </>
     );

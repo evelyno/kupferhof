@@ -1,0 +1,19 @@
+{
+    "nav": {
+        "welcome": "Welcome",
+        "weddings": "Weddings",
+        "events": "Events",
+        "accommodation": "Stay",
+        "catering": "Catering",
+        "about": "About Us",
+        "contact": "Contact"
+    },
+    "footer": {
+        "contact": "Contact",
+        "address": "Address",
+        "legal": "Legal",
+        "impressum": "Imprint",
+        "privacy": "Privacy",
+        "terms": "Terms"
+    }
+}

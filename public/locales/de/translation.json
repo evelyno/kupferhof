@@ -1,0 +1,19 @@
+{
+    "nav": {
+        "welcome": "Willkommen",
+        "weddings": "Hochzeiten",
+        "events": "Events",
+        "accommodation": "Übernachten",
+        "catering": "Catering",
+        "about": "Über Uns",
+        "contact": "Kontakt"
+    },
+    "footer": {
+        "contact": "Kontakt",
+        "address": "Adresse",
+        "legal": "Rechtliches",
+        "impressum": "Impressum",
+        "privacy": "Datenschutz",
+        "terms": "AGB"
+    }
+}
