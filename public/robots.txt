@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Security & System Paths
+Disallow: /admin/
+Disallow: /login/
+Disallow: /dashboard/
+
+# Sitemap
+Sitemap: https://www.kupferhof-rosental.de/sitemap.xml

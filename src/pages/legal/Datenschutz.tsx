@@ -7,6 +7,7 @@ const Datenschutz = () => {
             <Helmet>
                 <title>Datenschutz | Kupferhof Rosental</title>
                 <meta name="robots" content="noindex" />
+                <link rel="canonical" href="https://www.kupferhof-rosental.de/datenschutz" />
             </Helmet>
 
             <ModernPageHeader

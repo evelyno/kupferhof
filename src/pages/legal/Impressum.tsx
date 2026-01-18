@@ -7,6 +7,7 @@ const Impressum = () => {
             <Helmet>
                 <title>Impressum | Kupferhof Rosental</title>
                 <meta name="robots" content="noindex" />
+                <link rel="canonical" href="https://www.kupferhof-rosental.de/impressum" />
             </Helmet>
 
             <ModernPageHeader

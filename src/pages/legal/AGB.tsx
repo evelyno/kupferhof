@@ -7,6 +7,7 @@ const AGB = () => {
             <Helmet>
                 <title>AGB | Kupferhof Rosental</title>
                 <meta name="robots" content="noindex" />
+                <link rel="canonical" href="https://www.kupferhof-rosental.de/agb" />
             </Helmet>
 
             <ModernPageHeader

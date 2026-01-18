@@ -10,6 +10,7 @@ const Events = () => {
             <Helmet>
                 <title>Exklusive Events & Tagungen | Kupferhof Rosental</title>
                 <meta name="description" content="Firmenevents, Tagungen oder private Feiern. Der Kupferhof Rosental bietet den perfekten Rahmen für Veranstaltungen jeder Art in Stolberg." />
+                <link rel="canonical" href="https://www.kupferhof-rosental.de/veranstaltungen" />
             </Helmet>
 
             <ModernPageHeader

@@ -10,6 +10,7 @@ const LocationPage = () => {
             <Helmet>
                 <title>Die Location | Kupferhof Rosental</title>
                 <meta name="description" content="Entdecken Sie die Räumlichkeiten des Kupferhof Rosental. Historischer Charme trifft auf modernen Komfort in Stolberg." />
+                <link rel="canonical" href="https://www.kupferhof-rosental.de/location" />
             </Helmet>
 
             <ModernPageHeader

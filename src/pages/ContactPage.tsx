@@ -38,6 +38,7 @@ const ContactPage = () => {
             <Helmet>
                 <title>Kontakt & Anfrage | Kupferhof Rosental</title>
                 <meta name="description" content="Senden Sie uns Ihre Anfrage für Hochzeiten, Events oder Tagungen. Wir beraten Sie gerne persönlich." />
+                <link rel="canonical" href="https://www.kupferhof-rosental.de/kontakt" />
             </Helmet>
 
             <ModernPageHeader

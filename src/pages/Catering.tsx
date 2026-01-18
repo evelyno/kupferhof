@@ -10,6 +10,7 @@ const Catering = () => {
             <Helmet>
                 <title>Kulinarik & Catering | Kupferhof Rosental</title>
                 <meta name="description" content="Genussmomente für Ihr Event. Exquisites Catering, erlesene Weine und erstklassiger Service im Kupferhof Rosental." />
+                <link rel="canonical" href="https://www.kupferhof-rosental.de/kulinarik" />
             </Helmet>
 
             <ModernPageHeader

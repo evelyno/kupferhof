@@ -10,6 +10,7 @@ const Weddings = () => {
             <Helmet>
                 <title>Exklusive Hochzeiten im Kupferhof Rosental | Stolberg</title>
                 <meta name="description" content="Feiern Sie Ihre Traumhochzeit im historischen Ambiente. Maßgeschneiderte Konzepte, exquisites Catering und unvergessliche Momente." />
+                <link rel="canonical" href="https://www.kupferhof-rosental.de/hochzeiten" />
             </Helmet>
 
             <ModernPageHeader
