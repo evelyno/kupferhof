@@ -11,8 +11,8 @@ const ModernPageHeader: React.FC<ModernPageHeaderProps> = ({ title, subtitle }) 
     return (
         <header className="relative pt-32 pb-16 md:pt-40 md:pb-24 px-6 overflow-hidden bg-rosental-50">
             <div className="max-w-7xl mx-auto relative z-10">
-                <div className="flex flex-col items-center justify-center gap-8 text-center">
-                    <div className="max-w-2xl">
+                <div className="flex flex-col items-center justify-center gap-8 text-center w-full">
+                    <div className="w-full">
                         <motion.span
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
@@ -34,7 +34,7 @@ const ModernPageHeader: React.FC<ModernPageHeaderProps> = ({ title, subtitle }) 
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6, delay: 0.2 }}
-                                className="text-lg md:text-xl text-stone-500 font-light leading-relaxed max-w-lg"
+                                className="text-lg md:text-xl text-stone-500 font-light leading-relaxed mx-auto max-w-3xl"
                             >
                                 {subtitle}
                             </motion.p>
