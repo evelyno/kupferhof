@@ -43,7 +43,7 @@ const Navbar = () => {
                     "fixed top-0 left-0 w-full z-50 flex items-center justify-between px-6 md:px-12 transition-all duration-300",
                     isScrolled
                         ? "bg-white/90 backdrop-blur-md shadow-sm py-4 text-stone-800"
-                        : cn("py-8", isHome ? "text-white" : "text-stone-900 bg-transparent")
+                        : cn("py-8", isTransparentHeaderPage ? "text-white" : "text-stone-900 bg-transparent")
                 )}
             >
                 <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
