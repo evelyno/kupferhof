@@ -10,7 +10,7 @@ interface PageHeroProps {
     description?: string;
 }
 
-const PageHero: React.FC<PageHeroProps> = ({ image, title, subtitle, tag, description }) => {
+const PageHero: React.FC<PageHeroProps> = ({ image, title, subtitle, tag }) => {
     return (
         <div className="relative w-full h-[85vh] overflow-hidden">
             <div className="absolute inset-0">

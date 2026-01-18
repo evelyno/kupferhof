@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useInView } from 'framer-motion';
 
@@ -37,10 +37,8 @@ const Counter = ({ stat, isInView }: { stat: { label: string, target: number }, 
 
     useEffect(() => {
         if (isInView) {
-            let start = 0;
             const end = stat.target;
             const duration = 2000;
-            const incrementTime = duration / end;
 
             // To be efficient for large numbers, calculate step
             // For 2000ms duration:

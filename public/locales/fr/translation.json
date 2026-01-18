@@ -543,6 +543,51 @@
                 "text1": "3.1 Le Kupferhof Rosental est tenu de fournir les services commandés par le client et promis par lui.",
                 "text2": "3.2 Le client est tenu de payer les prix convenus ou applicables pour ces services et d'autres services utilisés."
             }
+        },
+        "datenschutz": {
+            "seo": {
+                "title": "Confidentialité | Kupferhof Rosental"
+            },
+            "header": {
+                "title": "Confidentialité.",
+                "subtitle": "Informations sur la protection de vos données personnelles."
+            },
+            "section1": {
+                "title": "1. Confidentialité en un coup d'œil",
+                "intro": {
+                    "title": "Remarques Générales",
+                    "text": "Les remarques suivantes donnent un aperçu simple de ce qu'il advient de vos données personnelles lorsque vous visitez ce site web. Les données personnelles sont toutes les données avec lesquelles vous pouvez être personnellement identifié."
+                },
+                "collection": {
+                    "title": "Collecte de données sur ce site",
+                    "responsible_title": "Qui est responsable de la collecte des données sur ce site ?",
+                    "responsible_text": "Le traitement des données sur ce site web est effectué par l'exploitant du site. Vous pouvez trouver ses coordonnées dans les mentions légales de ce site.",
+                    "how_title": "Comment collectons-nous vos données ?",
+                    "how_text": "D'une part, vos données sont collectées par le fait que vous nous les communiquez (par exemple, formulaire de contact). D'autres données sont collectées automatiquement par nos systèmes informatiques lors de la visite du site (données techniques)."
+                }
+            },
+            "section2": {
+                "title": "2. Hébergement",
+                "text": "Nous hébergeons le contenu de notre site web chez le fournisseur suivant : [Nom du fournisseur]."
+            },
+            "section3": {
+                "title": "3. Remarques Générales et Informations Obligatoires",
+                "general": {
+                    "title": "Protection des Données",
+                    "text": "Les exploitants de ces pages prennent très au sérieux la protection de vos données personnelles. Nous traitons vos données personnelles de manière confidentielle et conformément aux réglementations légales sur la protection des données et à cette déclaration de confidentialité."
+                },
+                "responsible": {
+                    "title": "Note sur l'organisme responsable",
+                    "text": "L'organisme responsable du traitement des données sur ce site web est :<br /><br /><strong>Kupferhof Rosental</strong><br />Rathausstrasse 65-69<br />52222 Stolberg (Rhld.)<br /><br />E-mail : info@kupferhof-rosental.de"
+                }
+            },
+            "section4": {
+                "title": "4. Collecte de données sur ce site",
+                "contact": {
+                    "title": "Formulaire de Contact",
+                    "text": "Si vous nous envoyez des demandes via le formulaire de contact, vos coordonnées du formulaire de demande, y compris les coordonnées que vous y avez fournies, seront stockées par nous dans le but de traiter la demande et en cas de questions de suivi. Nous ne transmettons pas ces données sans votre consentement."
+                }
+            }
         }
     }
 }

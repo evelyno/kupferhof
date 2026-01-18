@@ -543,6 +543,51 @@
                 "text1": "3.1 Kupferhof Rosental is verplicht om de door de klant bestelde en door hem toegezegde diensten te leveren.",
                 "text2": "3.2 De klant is verplicht om de overeengekomen of geldende prijzen te betalen voor deze en andere gebruikte diensten."
             }
+        },
+        "datenschutz": {
+            "seo": {
+                "title": "Privacy | Kupferhof Rosental"
+            },
+            "header": {
+                "title": "Privacy.",
+                "subtitle": "Informatie over de bescherming van uw persoonlijke gegevens."
+            },
+            "section1": {
+                "title": "1. Privacy in één oogopslag",
+                "intro": {
+                    "title": "Algemene Opmerkingen",
+                    "text": "De volgende opmerkingen geven een eenvoudig overzicht van wat er met uw persoonlijke gegevens gebeurt wanneer u deze website bezoekt. Persoonlijke gegevens zijn alle gegevens waarmee u persoonlijk geïdentificeerd kunt worden."
+                },
+                "collection": {
+                    "title": "Gegevensverzameling op deze website",
+                    "responsible_title": "Wie is verantwoordelijk voor de gegevensverzameling op deze website?",
+                    "responsible_text": "De gegevensverwerking op deze website wordt uitgevoerd door de websitebeheerder. U vindt diens contactgegevens in het colofon van deze website.",
+                    "how_title": "Hoe verzamelen wij uw gegevens?",
+                    "how_text": "Uw gegevens worden enerzijds verzameld doordat u ons deze meedeelt (bijv. contactformulier). Andere gegevens worden automatisch verzameld door onze IT-systemen bij een bezoek aan de website (technische gegevens)."
+                }
+            },
+            "section2": {
+                "title": "2. Hosting",
+                "text": "Wij hosten de inhoud van onze website bij de volgende provider: [Provider Naam]."
+            },
+            "section3": {
+                "title": "3. Algemene Opmerkingen en Verplichte Informatie",
+                "general": {
+                    "title": "Gegevensbescherming",
+                    "text": "De beheerders van deze pagina's nemen de bescherming van uw persoonlijke gegevens zeer serieus. Wij behandelen uw persoonlijke gegevens vertrouwelijk en in overeenstemming met de wettelijke voorschriften inzake gegevensbescherming en deze privacyverklaring."
+                },
+                "responsible": {
+                    "title": "Opmerking over de verantwoordelijke instantie",
+                    "text": "De verantwoordelijke instantie voor de gegevensverwerking op deze website is:<br /><br /><strong>Kupferhof Rosental</strong><br />Rathausstrasse 65-69<br />52222 Stolberg (Rhld.)<br /><br />E-mail: info@kupferhof-rosental.de"
+                }
+            },
+            "section4": {
+                "title": "4. Gegevensverzameling op deze website",
+                "contact": {
+                    "title": "Contactformulier",
+                    "text": "Als u ons vragen stelt via het contactformulier, worden uw gegevens uit het aanvraagformulier, inclusief de contactgegevens die u daar hebt opgegeven, door ons opgeslagen voor het verwerken van de aanvraag en in geval van vervolgvragen. Wij geven deze gegevens niet door zonder uw toestemming."
+                }
+            }
         }
     }
 }

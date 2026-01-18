@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { ChevronRight, ChevronLeft, Facebook, Instagram, Twitter, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';

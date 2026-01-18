@@ -7,7 +7,7 @@ interface ModernPageHeaderProps {
     image?: string; // Optional side image or small accent
 }
 
-const ModernPageHeader: React.FC<ModernPageHeaderProps> = ({ title, subtitle, image }) => {
+const ModernPageHeader: React.FC<ModernPageHeaderProps> = ({ title, subtitle }) => {
     return (
         <header className="relative pt-32 pb-16 md:pt-40 md:pb-24 px-6 overflow-hidden bg-rosental-50">
             <div className="max-w-7xl mx-auto relative z-10">
