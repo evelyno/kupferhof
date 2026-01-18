@@ -42,6 +42,14 @@ const Hero = () => { // Move hook inside component
             setCurrentSlide((prev) => (prev + 1) % slides.length);
         }, 5000);
         return () => clearInterval(timer);
+    }, [slides.length]);
+
+    // Preload images to prevent flickering
+    useEffect(() => {
+        slides.forEach((slide) => {
+            const img = new Image();
+            img.src = slide.image;
+        });
     }, []);
 
     const goToSlide = (index: number) => {
@@ -56,10 +64,17 @@ const Hero = () => { // Move hook inside component
 
             {/* Slides */}
             <div className="relative w-full h-full">
-                <AnimatePresence mode='wait'>
+                <AnimatePresence initial={false}>
                     {slides.map((slide, index) => (
                         index === currentSlide && (
-                            <div key={slide.id} className="absolute inset-0 w-full h-full">
+                            <motion.div
+                                key={slide.id}
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                exit={{ opacity: 0 }}
+                                transition={{ duration: 1 }}
+                                className="absolute inset-0 w-full h-full"
+                            >
                                 <div className="absolute inset-0 w-full h-full overflow-hidden">
                                     {/* Background Image with Zoom Effect */}
                                     <motion.img
@@ -99,7 +114,7 @@ const Hero = () => { // Move hook inside component
                                         </motion.div>
                                     </div>
                                 </div>
-                            </div>
+                            </motion.div>
                         )
                     ))}
                 </AnimatePresence>

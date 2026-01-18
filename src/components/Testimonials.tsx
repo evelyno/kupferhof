@@ -1,30 +1,32 @@
 import React, { useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Quote, Star, ArrowLeft, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-const testimonials = [
-    {
-        image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80',
-        name: 'Julia M.',
-        role: 'Hochzeitsgast',
-        text: 'Sie haben unsere Hochzeit einfach wundervoll gemacht. Bevor wir den Kupferhof wählten, sprachen wir mit vielen Locations, aber diese war definitiv die beste Wahl. Atemberaubend!'
-    },
-    {
-        image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80',
-        name: 'Thomas & Sarah',
-        role: 'Hochzeitspaar',
-        text: 'Die Zusammenarbeit mit dem Kupferhof-Team war ein absolutes Vergnügen!! Sie waren unglaublich aufmerksam und organisiert und sorgten dafür, dass unsere Hochzeit reibungslos verlief.'
-    },
-    {
-        image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80',
-        name: 'Michael S.',
-        role: 'Firmenfeier',
-        text: 'Das Team hat alle unsere Erwartungen übertroffen. Von der beeindruckenden Location bis zum tadellosen Service war alles perfekt. Unsere Gäste schwärmen immer noch!'
-    }
-];
-
 const Testimonials = () => {
+    const { t } = useTranslation();
     const containerRef = useRef<HTMLDivElement>(null);
+
+    const testimonials = [
+        {
+            image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80',
+            name: t('testimonials.items.0.name'),
+            role: t('testimonials.items.0.role'),
+            text: t('testimonials.items.0.text')
+        },
+        {
+            image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80',
+            name: t('testimonials.items.1.name'),
+            role: t('testimonials.items.1.role'),
+            text: t('testimonials.items.1.text')
+        },
+        {
+            image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80',
+            name: t('testimonials.items.2.name'),
+            role: t('testimonials.items.2.role'),
+            text: t('testimonials.items.2.text')
+        }
+    ];
 
     const scroll = (direction: 'left' | 'right') => {
         if (containerRef.current) {
@@ -43,9 +45,9 @@ const Testimonials = () => {
 
                     {/* Left Header */}
                     <div className="lg:w-1/3">
-                        <h2 className="text-4xl md:text-5xl font-medium text-stone-900 font-serif tracking-tight mb-6">Das sagen unsere Brautpaare</h2>
+                        <h2 className="text-4xl md:text-5xl font-medium text-stone-900 font-serif tracking-tight mb-6">{t('testimonials.title')}</h2>
                         <p className="text-lg text-stone-500 mb-10 leading-relaxed">
-                            Jedes Paar, das bei uns gefeiert hat, verliebte sich in die Atmosphäre. Werden Sie Teil unserer Geschichte.
+                            {t('testimonials.subtitle')}
                         </p>
                         <div className="flex gap-4">
                             <button onClick={() => scroll('left')} className="w-12 h-12 rounded-full border border-stone-200 flex items-center justify-center hover:bg-stone-50 transition-colors text-stone-600">

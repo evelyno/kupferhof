@@ -11,10 +11,12 @@ import ScrollToTop from './components/ScrollToTop.tsx'
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <HelmetProvider>
-      <BrowserRouter>
-        <ScrollToTop />
-        <App />
-      </BrowserRouter>
+      <React.Suspense fallback={<div className="h-screen w-full flex items-center justify-center bg-white text-rosental-500">Loading...</div>}>
+        <BrowserRouter>
+          <ScrollToTop />
+          <App />
+        </BrowserRouter>
+      </React.Suspense>
     </HelmetProvider>
   </React.StrictMode>,
 )

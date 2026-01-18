@@ -1,3 +1,4 @@
+import { useTranslation, Trans } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import ModernPageHeader from '../components/ModernPageHeader';
@@ -5,17 +6,19 @@ import Contact from '../components/Contact';
 import { ArrowRight, Heart, Users, Music, Utensils, Sparkles } from 'lucide-react';
 
 const Weddings = () => {
+    const { t } = useTranslation();
+
     return (
         <>
             <Helmet>
-                <title>Exklusive Hochzeiten im Kupferhof Rosental | Stolberg</title>
-                <meta name="description" content="Feiern Sie Ihre Traumhochzeit im historischen Ambiente. Maßgeschneiderte Konzepte, exquisites Catering und unvergessliche Momente." />
+                <title>{t('weddings.seo.title')}</title>
+                <meta name="description" content={t('weddings.seo.description')} />
                 <link rel="canonical" href="https://www.kupferhof-rosental.de/hochzeiten" />
             </Helmet>
 
             <ModernPageHeader
-                title="Ihre Hochzeit."
-                subtitle="Ein Tag, so einzigartig wie Ihre Liebe. Feiern Sie im historischen Ambiente des Kupferhof Rosental."
+                title={t('weddings.header.title')}
+                subtitle={t('weddings.header.subtitle')}
             />
 
             {/* Section 1: Intro / Emotional Hook (Asymmetrical Layout) */}
@@ -29,17 +32,15 @@ const Weddings = () => {
                             transition={{ duration: 0.8 }}
                             className="order-2 lg:order-1"
                         >
-                            <span className="text-rosental-500 font-serif italic text-2xl mb-4 block">Der Beginn einer Reise</span>
+                            <span className="text-rosental-500 font-serif italic text-2xl mb-4 block">{t('weddings.intro.tag')}</span>
                             <h2 className="text-4xl md:text-5xl font-serif text-rosental-950 mb-8 leading-tight">
-                                Geschichte schreiben.<br />Gemeinsam.
+                                <Trans i18nKey="weddings.intro.title" components={{ br: <br /> }} />
                             </h2>
                             <p className="text-stone-600 mb-6 leading-relaxed text-lg">
-                                Es gibt Orte, die behält man für immer im Herzen. Der Kupferhof Rosental ist ein solcher Ort.
-                                Inmitten von Stolberg gelegen, verbindet unser historisches Gemäuer Jahrhunderte alte Tradition mit moderner Eleganz.
+                                {t('weddings.intro.text1')}
                             </p>
                             <p className="text-stone-600 mb-10 leading-relaxed text-lg">
-                                Ob eine intime Zeremonie im kleinen Kreis oder ein rauschendes Fest bis in die Morgenstunden – wir schaffen den perfekten Rahmen für Ihren großen Tag.
-                                Lassen Sie sich von der Magie unseres Innenhofs verzaubern und genießen Sie den Luxus, Gastgeber in einer der exklusivsten Locations der Region zu sein.
+                                {t('weddings.intro.text2')}
                             </p>
 
                             <div className="flex gap-8 items-center">
@@ -48,7 +49,7 @@ const Weddings = () => {
                                     <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80" alt="Bräutigam" className="w-12 h-12 rounded-full border-2 border-white object-cover" />
                                     <div className="w-12 h-12 rounded-full border-2 border-white bg-rosental-100 flex items-center justify-center text-xs text-rosental-800 font-medium">+120</div>
                                 </div>
-                                <span className="text-sm text-stone-500 uppercase tracking-widest font-medium">Gäste bis 150 Personen</span>
+                                <span className="text-sm text-stone-500 uppercase tracking-widest font-medium">{t('weddings.intro.guests')}</span>
                             </div>
                         </motion.div>
                         <motion.div
@@ -76,9 +77,9 @@ const Weddings = () => {
             <section className="py-24 bg-rosental-50">
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="text-center max-w-3xl mx-auto mb-20">
-                        <h2 className="text-3xl md:text-4xl font-serif text-rosental-950 mb-6">Alles für Ihren perfekten Tag</h2>
+                        <h2 className="text-3xl md:text-4xl font-serif text-rosental-950 mb-6">{t('weddings.features.title')}</h2>
                         <p className="text-stone-600 text-lg">
-                            Wir kümmern uns um die Details, damit Sie sich auf das Wichtigste konzentrieren können: Ja zu sagen.
+                            {t('weddings.features.subtitle')}
                         </p>
                     </div>
 
@@ -86,18 +87,18 @@ const Weddings = () => {
                         {[
                             {
                                 icon: <Heart className="w-8 h-8 text-rosental-500" />,
-                                title: "Freie Trauung",
-                                desc: "Unser romantischer Innenhof oder die stilvollen Säle bieten die perfekte Kulisse für Ihre emotionsgeladene Zeremonie."
+                                title: t('weddings.features.cards.0.title'),
+                                desc: t('weddings.features.cards.0.desc')
                             },
                             {
                                 icon: <Utensils className="w-8 h-8 text-rosental-500" />,
-                                title: "Exquisites Catering",
-                                desc: "Vom Sektempfang bis zum Mitternachtssnack – unsere kulinarischen Partner verwöhnen Sie und Ihre Gäste auf höchstem Niveau."
+                                title: t('weddings.features.cards.1.title'),
+                                desc: t('weddings.features.cards.1.desc')
                             },
                             {
                                 icon: <Music className="w-8 h-8 text-rosental-500" />,
-                                title: "Party bis zum Morgen",
-                                desc: "Keine Sperrstunde, keine Kompromisse. Unsere modernste Licht- und Tontechnik sorgt für die Party Ihres Lebens."
+                                title: t('weddings.features.cards.2.title'),
+                                desc: t('weddings.features.cards.2.desc')
                             }
                         ].map((item, index) => (
                             <motion.div
@@ -132,10 +133,10 @@ const Weddings = () => {
                     <div className="absolute inset-0 bg-black/30" />
                 </div>
                 <div className="relative z-10 text-center text-white px-6 max-w-4xl">
-                    <span className="font-serif italic text-2xl md:text-3xl opacity-90 mb-4 block">Momente für die Ewigkeit</span>
-                    <h2 className="text-5xl md:text-7xl font-serif mb-8">Ein Fest der Liebe.</h2>
+                    <span className="font-serif italic text-2xl md:text-3xl opacity-90 mb-4 block">{t('weddings.parallax.tag')}</span>
+                    <h2 className="text-5xl md:text-7xl font-serif mb-8">{t('weddings.parallax.title')}</h2>
                     <button className="bg-white text-rosental-900 px-8 py-4 rounded-sm font-medium hover:bg-rosental-100 transition-colors inline-flex items-center gap-2">
-                        Galerie ansehen <ArrowRight className="w-5 h-5" />
+                        {t('weddings.parallax.button')} <ArrowRight className="w-5 h-5" />
                     </button>
                 </div>
             </section>
@@ -152,8 +153,8 @@ const Weddings = () => {
                             />
                         </div>
                         <div>
-                            <span className="text-stone-500 uppercase tracking-widest text-sm font-medium mb-4 block">Die Räumlichkeiten</span>
-                            <h2 className="text-3xl md:text-4xl font-serif text-rosental-950 mb-8">Platz für Ihre Träume</h2>
+                            <span className="text-stone-500 uppercase tracking-widest text-sm font-medium mb-4 block">{t('weddings.rooms.tag')}</span>
+                            <h2 className="text-3xl md:text-4xl font-serif text-rosental-950 mb-8">{t('weddings.rooms.title')}</h2>
 
                             <div className="space-y-8">
                                 <div className="flex gap-4">
@@ -161,8 +162,8 @@ const Weddings = () => {
                                         <Users className="w-5 h-5 text-rosental-500" />
                                     </div>
                                     <div>
-                                        <h4 className="font-serif text-lg text-stone-900 mb-2">Großer Festsaal</h4>
-                                        <p className="text-stone-500 text-sm leading-relaxed">Bis zu 120 Personen sitzend. Hohe Decken, bodentiefe Fenster und direkter Zugang zur Terrasse.</p>
+                                        <h4 className="font-serif text-lg text-stone-900 mb-2">{t('weddings.rooms.items.0.title')}</h4>
+                                        <p className="text-stone-500 text-sm leading-relaxed">{t('weddings.rooms.items.0.desc')}</p>
                                     </div>
                                 </div>
                                 <div className="flex gap-4">
@@ -170,8 +171,8 @@ const Weddings = () => {
                                         <Sparkles className="w-5 h-5 text-rosental-500" />
                                     </div>
                                     <div>
-                                        <h4 className="font-serif text-lg text-stone-900 mb-2">Kaminzimmer</h4>
-                                        <p className="text-stone-500 text-sm leading-relaxed">Für den intimen Empfang oder als Lounge-Bereich. Gemütliche Atmosphäre mit echtem Kamin.</p>
+                                        <h4 className="font-serif text-lg text-stone-900 mb-2">{t('weddings.rooms.items.1.title')}</h4>
+                                        <p className="text-stone-500 text-sm leading-relaxed">{t('weddings.rooms.items.1.desc')}</p>
                                     </div>
                                 </div>
                                 <div className="flex gap-4">
@@ -179,8 +180,8 @@ const Weddings = () => {
                                         <Music className="w-5 h-5 text-rosental-500" />
                                     </div>
                                     <div>
-                                        <h4 className="font-serif text-lg text-stone-900 mb-2">Innenhof</h4>
-                                        <p className="text-stone-500 text-sm leading-relaxed">Der perfekte Ort für Ihren Sektempfang oder eine freie Trauung unter freiem Himmel.</p>
+                                        <h4 className="font-serif text-lg text-stone-900 mb-2">{t('weddings.rooms.items.2.title')}</h4>
+                                        <p className="text-stone-500 text-sm leading-relaxed">{t('weddings.rooms.items.2.desc')}</p>
                                     </div>
                                 </div>
                             </div>

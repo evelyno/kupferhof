@@ -1,8 +1,13 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 
+// ...
+
 const About = () => {
+    const { t } = useTranslation();
+
     return (
         <section id="about" className="py-24 bg-rosental-50 overflow-hidden">
             <div className="max-w-7xl mx-auto px-6">
@@ -16,30 +21,30 @@ const About = () => {
                         transition={{ duration: 0.8 }}
                         className="lg:w-1/2"
                     >
-                        <span className="text-rosental-500 font-medium tracking-widest uppercase text-sm mb-4 block">Über den Kupferhof</span>
+                        <span className="text-rosental-500 font-medium tracking-widest uppercase text-sm mb-4 block">{t('about.tag')}</span>
                         <h2 className="text-4xl md:text-5xl font-medium text-stone-900 font-serif tracking-tight mb-6">
-                            Ein historisches Juwel im Herzen des Vichtbachtals
+                            {t('about.title')}
                         </h2>
                         <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                            Der Kupferhof Rosental blickt auf eine lange Tradition zurück. Einst Herzstück der Stolberger Kupferindustrie, ist er heute eine der exklusivsten Hochzeitslocations im Raum Aachen.
+                            {t('about.p1')}
                         </p>
                         <p className="text-stone-500 mb-8 leading-relaxed">
-                            Die liebevoll restaurierten Gebäude und die weitläufige Parkanlage bieten eine einzigartige Atmosphäre für Ihren besonderen Tag. Nur wenige Minuten von Aachen entfernt, finden Sie hier Ruhe, Eleganz und geschichtsträchtiges Flair. Ob freie Trauung im Rosengarten oder festliches Dinner im Ballsaal – wir machen Ihre Träume wahr.
+                            {t('about.p2')}
                         </p>
 
                         <div className="grid grid-cols-2 gap-8 mb-8">
                             <div>
-                                <h4 className="text-3xl font-serif text-rosental-500 mb-1">17. Jh.</h4>
-                                <p className="text-sm text-stone-400 uppercase tracking-wide">Historie</p>
+                                <h4 className="text-3xl font-serif text-rosental-500 mb-1">{t('about.stats.history.val')}</h4>
+                                <p className="text-sm text-stone-400 uppercase tracking-wide">{t('about.stats.history.label')}</p>
                             </div>
                             <div>
-                                <h4 className="text-3xl font-serif text-rosental-500 mb-1">5 Ha</h4>
-                                <p className="text-sm text-stone-400 uppercase tracking-wide">Parkanlage</p>
+                                <h4 className="text-3xl font-serif text-rosental-500 mb-1">{t('about.stats.park.val')}</h4>
+                                <p className="text-sm text-stone-400 uppercase tracking-wide">{t('about.stats.park.label')}</p>
                             </div>
                         </div>
 
                         <a href="#contact-form" className="inline-flex items-center px-8 py-4 bg-stone-900 text-white rounded-full hover:bg-rosental-500 transition-colors duration-300">
-                            Termin vereinbaren
+                            {t('about.cta')}
                             <ArrowRight className="w-4 h-4 ml-2" />
                         </a>
                     </motion.div>

@@ -1,23 +1,25 @@
 import React, { useEffect, useState, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useInView } from 'framer-motion';
 
-const stats = [
-    { label: 'Hochzeiten', target: 400 },
-    { label: 'Glückliche Paare', target: 800 },
-    { label: 'Events', target: 360 },
-    { label: 'Jahre Erfahrung', target: 16 },
-];
-
 const Stats = () => {
+    const { t } = useTranslation();
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true, margin: "-100px" });
+
+    const stats = [
+        { label: t('stats.items.0.label'), target: 400 },
+        { label: t('stats.items.1.label'), target: 800 },
+        { label: t('stats.items.2.label'), target: 360 },
+        { label: t('stats.items.3.label'), target: 16 },
+    ];
 
     return (
         <section ref={ref} className="py-20 bg-rosental-50 border-y border-rosental-100">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl md:text-5xl font-medium text-stone-900 font-serif tracking-tight mb-4">Warum Kupferhof Rosental?</h2>
-                    <p className="text-lg text-stone-500">Exzellenz bis ins kleinste Detail</p>
+                    <h2 className="text-4xl md:text-5xl font-medium text-stone-900 font-serif tracking-tight mb-4">{t('stats.title')}</h2>
+                    <p className="text-lg text-stone-500">{t('stats.subtitle')}</p>
                 </div>
 
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8">

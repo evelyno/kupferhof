@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import ModernPageHeader from '../components/ModernPageHeader';
@@ -5,21 +6,19 @@ import Contact from '../components/Contact';
 import { Wifi, Coffee, Bath, Moon } from 'lucide-react';
 
 const Accommodation = () => {
-    // Note: Text content here is hardcoded in German for now. 
-    // In a full implementation, we would replace string literals with t('key') calls.
-    // For this step, I focus on the structure and design.
+    const { t } = useTranslation();
 
     return (
         <>
             <Helmet>
-                <title>Übernachten | Kupferhof Rosental</title>
-                <meta name="description" content="Entspannen Sie in unseren exklusiven Suiten. Historischer Charme trifft auf modernen Komfort. Übernachten im Kupferhof Rosental." />
+                <title>{t('accommodation.seo.title')}</title>
+                <meta name="description" content={t('accommodation.seo.description')} />
                 <link rel="canonical" href="https://www.kupferhof-rosental.de/uebernachten" />
             </Helmet>
 
             <ModernPageHeader
-                title="Suiten & Zimmer."
-                subtitle="Ruhe finden nach einem rauschenden Fest. Träumen Sie inmitten von Geschichte."
+                title={t('accommodation.header.title')}
+                subtitle={t('accommodation.header.subtitle')}
             />
 
             <section className="py-24 bg-white">
@@ -27,8 +26,7 @@ const Accommodation = () => {
                     {/* Intro */}
                     <div className="max-w-3xl mx-auto text-center mb-20 text-stone-600">
                         <p className="text-xl leading-relaxed">
-                            Unsere Gästezimmer vereinen den Charakter des historischen Kupferhofs mit zeitgemäßem Luxus.
-                            Jedes Zimmer ist ein Unikat, liebevoll eingerichtet mit ausgewählten Materialien und einem Blick für Details.
+                            {t('accommodation.intro')}
                         </p>
                     </div>
 
@@ -52,17 +50,16 @@ const Accommodation = () => {
                             viewport={{ once: true }}
                             transition={{ duration: 0.8 }}
                         >
-                            <span className="text-sm font-medium tracking-widest text-rosental-500 uppercase mb-4 block">Das Highlight</span>
-                            <h2 className="text-4xl font-serif text-rosental-950 mb-6">Die Hochzeitssuite</h2>
+                            <span className="text-sm font-medium tracking-widest text-rosental-500 uppercase mb-4 block">{t('accommodation.suite.tag')}</span>
+                            <h2 className="text-4xl font-serif text-rosental-950 mb-6">{t('accommodation.suite.title')}</h2>
                             <p className="text-stone-600 mb-8 leading-relaxed">
-                                Großzügig geschnitten und lichtdurchflutet. Unsere Hochzeitssuite bietet dem Brautpaar einen Rückzugsort der Extraklasse.
-                                Mit freistehender Badewanne, King-Size Bett und einem atemberaubenden Blick in den Innenhof.
+                                {t('accommodation.suite.desc')}
                             </p>
                             <div className="grid grid-cols-2 gap-4 text-stone-500">
-                                <div className="flex items-center gap-2"><Wifi className="w-4 h-4" /> High-Speed WLAN</div>
-                                <div className="flex items-center gap-2"><Bath className="w-4 h-4" /> Freistehende Wanne</div>
-                                <div className="flex items-center gap-2"><Coffee className="w-4 h-4" /> Nespresso Maschine</div>
-                                <div className="flex items-center gap-2"><Moon className="w-4 h-4" /> King-Size Bett</div>
+                                <div className="flex items-center gap-2"><Wifi className="w-4 h-4" /> {t('accommodation.suite.features.0')}</div>
+                                <div className="flex items-center gap-2"><Bath className="w-4 h-4" /> {t('accommodation.suite.features.1')}</div>
+                                <div className="flex items-center gap-2"><Coffee className="w-4 h-4" /> {t('accommodation.suite.features.2')}</div>
+                                <div className="flex items-center gap-2"><Moon className="w-4 h-4" /> {t('accommodation.suite.features.3')}</div>
                             </div>
                         </motion.div>
                     </div>
@@ -76,17 +73,16 @@ const Accommodation = () => {
                             transition={{ duration: 0.8 }}
                             className="order-2 lg:order-1"
                         >
-                            <span className="text-sm font-medium tracking-widest text-rosental-500 uppercase mb-4 block">Für Gäste</span>
-                            <h2 className="text-4xl font-serif text-rosental-950 mb-6">Gästezimmer</h2>
+                            <span className="text-sm font-medium tracking-widest text-rosental-500 uppercase mb-4 block">{t('accommodation.guest.tag')}</span>
+                            <h2 className="text-4xl font-serif text-rosental-950 mb-6">{t('accommodation.guest.title')}</h2>
                             <p className="text-stone-600 mb-8 leading-relaxed">
-                                Für Ihre engsten Familie und Freunde stehen weitere stilvolle Doppelzimmer zur Verfügung.
-                                So können Sie das Fest gemeinsam beim Frühstück am nächsten Morgen ausklingen lassen.
+                                {t('accommodation.guest.desc')}
                             </p>
                             <div className="grid grid-cols-2 gap-4 text-stone-500">
-                                <div className="flex items-center gap-2"><Wifi className="w-4 h-4" /> High-Speed WLAN</div>
-                                <div className="flex items-center gap-2"><Bath className="w-4 h-4" /> Rainshower Dusche</div>
-                                <div className="flex items-center gap-2"><Coffee className="w-4 h-4" /> Tee & Wasser</div>
-                                <div className="flex items-center gap-2"><Moon className="w-4 h-4" /> Queen-Size Bett</div>
+                                <div className="flex items-center gap-2"><Wifi className="w-4 h-4" /> {t('accommodation.guest.features.0')}</div>
+                                <div className="flex items-center gap-2"><Bath className="w-4 h-4" /> {t('accommodation.guest.features.1')}</div>
+                                <div className="flex items-center gap-2"><Coffee className="w-4 h-4" /> {t('accommodation.guest.features.2')}</div>
+                                <div className="flex items-center gap-2"><Moon className="w-4 h-4" /> {t('accommodation.guest.features.3')}</div>
                             </div>
                         </motion.div>
                         <motion.div

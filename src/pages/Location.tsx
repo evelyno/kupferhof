@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import ModernPageHeader from '../components/ModernPageHeader';
@@ -5,17 +6,19 @@ import Contact from '../components/Contact';
 import { MapPin, Maximize, Sun, Wind, Users } from 'lucide-react';
 
 const LocationPage = () => {
+    const { t } = useTranslation();
+
     return (
         <>
             <Helmet>
-                <title>Die Location | Kupferhof Rosental</title>
-                <meta name="description" content="Entdecken Sie die Räumlichkeiten des Kupferhof Rosental. Historischer Charme trifft auf modernen Komfort in Stolberg." />
+                <title>{t('location.seo.title')}</title>
+                <meta name="description" content={t('location.seo.description')} />
                 <link rel="canonical" href="https://www.kupferhof-rosental.de/location" />
             </Helmet>
 
             <ModernPageHeader
-                title="Der Kupferhof."
-                subtitle="Ein architektonisches Juwel im Herzen von Stolberg. Entdecken Sie Räume mit Charakter."
+                title={t('location.header.title')}
+                subtitle={t('location.header.subtitle')}
             />
 
             {/* Section 1: The Building */}
@@ -23,13 +26,12 @@ const LocationPage = () => {
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-24">
                         <div className="space-y-6">
-                            <span className="text-rosental-500 font-serif italic text-2xl block">Architektur & Historie</span>
+                            <span className="text-rosental-500 font-serif italic text-2xl block">{t('location.intro.tag')}</span>
                             <h2 className="text-4xl font-serif text-rosental-950 leading-tight">
-                                Wände, die Geschichten erzählen.
+                                {t('location.intro.title')}
                             </h2>
                             <p className="text-stone-600 text-lg leading-relaxed">
-                                Der Kupferhof Rosental ist mehr als nur ein Gebäude. Er ist ein Zeugnis der blühenden Kupfermeister-Epoche Stolbergs.
-                                Liebevoll restauriert, verbindet er heute den rauen Charme des Industriedenkmals mit der Eleganz einer modernen Eventlocation.
+                                {t('location.intro.text')}
                             </p>
                         </div>
                         <div className="grid grid-cols-2 gap-4">
@@ -57,15 +59,15 @@ const LocationPage = () => {
                             className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center"
                         >
                             <div className="order-2 md:order-1">
-                                <h3 className="text-3xl font-serif text-rosental-900 mb-4">Der Große Festsaal</h3>
+                                <h3 className="text-3xl font-serif text-rosental-900 mb-4">{t('location.rooms.0.title')}</h3>
                                 <p className="text-stone-600 mb-6 leading-relaxed">
-                                    Unser Herzstück. Mit seinen hohen Decken, dem edlen Parkettboden und den lichtdurchfluteten Fenstern bietet der Festsaal ein Ambiente von zeitloser Eleganz. Ideal für große Bankette, Hochzeiten und Vorträge.
+                                    {t('location.rooms.0.desc')}
                                 </p>
                                 <div className="grid grid-cols-2 gap-y-4 gap-x-8 text-sm text-stone-500 mb-8">
-                                    <div className="flex items-center gap-2"><Maximize className="w-4 h-4 text-rosental-400" /> 200 m² Fläche</div>
-                                    <div className="flex items-center gap-2"><Sun className="w-4 h-4 text-rosental-400" /> Tageslicht</div>
-                                    <div className="flex items-center gap-2"><Users className="w-4 h-4 text-rosental-400" /> bis 120 Personen</div>
-                                    <div className="flex items-center gap-2"><Wind className="w-4 h-4 text-rosental-400" /> Klimatisiert</div>
+                                    <div className="flex items-center gap-2"><Maximize className="w-4 h-4 text-rosental-400" /> {t('location.rooms.0.details.0')}</div>
+                                    <div className="flex items-center gap-2"><Sun className="w-4 h-4 text-rosental-400" /> {t('location.rooms.0.details.1')}</div>
+                                    <div className="flex items-center gap-2"><Users className="w-4 h-4 text-rosental-400" /> {t('location.rooms.0.details.2')}</div>
+                                    <div className="flex items-center gap-2"><Wind className="w-4 h-4 text-rosental-400" /> {t('location.rooms.0.details.3')}</div>
                                 </div>
                             </div>
                             <div className="order-1 md:order-2 h-[400px] bg-stone-100 rounded-sm overflow-hidden">
@@ -93,14 +95,14 @@ const LocationPage = () => {
                                 />
                             </div>
                             <div>
-                                <h3 className="text-3xl font-serif text-rosental-900 mb-4">Das Kaminzimmer</h3>
+                                <h3 className="text-3xl font-serif text-rosental-900 mb-4">{t('location.rooms.1.title')}</h3>
                                 <p className="text-stone-600 mb-6 leading-relaxed">
-                                    Intim und gemütlich. Das Kaminzimmer mit seinem offenen Kamin ist der perfekte Rückzugsort für kleinere Gesellschaften, Empfänge oder als stilvolle Lounge während Ihrer großen Feier.
+                                    {t('location.rooms.1.desc')}
                                 </p>
                                 <div className="grid grid-cols-2 gap-y-4 gap-x-8 text-sm text-stone-500 mb-8">
-                                    <div className="flex items-center gap-2"><Maximize className="w-4 h-4 text-rosental-400" /> 80 m² Fläche</div>
-                                    <div className="flex items-center gap-2"><Sun className="w-4 h-4 text-rosental-400" /> Zugang Terrasse</div>
-                                    <div className="flex items-center gap-2"><Users className="w-4 h-4 text-rosental-400" /> bis 40 Personen</div>
+                                    <div className="flex items-center gap-2"><Maximize className="w-4 h-4 text-rosental-400" /> {t('location.rooms.1.details.0')}</div>
+                                    <div className="flex items-center gap-2"><Sun className="w-4 h-4 text-rosental-400" /> {t('location.rooms.1.details.1')}</div>
+                                    <div className="flex items-center gap-2"><Users className="w-4 h-4 text-rosental-400" /> {t('location.rooms.1.details.2')}</div>
                                 </div>
                             </div>
                         </motion.div>
@@ -114,14 +116,14 @@ const LocationPage = () => {
                             className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center"
                         >
                             <div className="order-2 md:order-1">
-                                <h3 className="text-3xl font-serif text-rosental-900 mb-4">Der Innenhof</h3>
+                                <h3 className="text-3xl font-serif text-rosental-900 mb-4">{t('location.rooms.2.title')}</h3>
                                 <p className="text-stone-600 mb-6 leading-relaxed">
-                                    Ein Stück Italien in Stolberg. Unser geschützter Innenhof bietet Privatsphäre unter freiem Himmel. Perfekt für freie Trauungen, Sektempfänge oder das entspannte Beisammensein an lauen Sommerabenden.
+                                    {t('location.rooms.2.desc')}
                                 </p>
                                 <div className="grid grid-cols-2 gap-y-4 gap-x-8 text-sm text-stone-500 mb-8">
-                                    <div className="flex items-center gap-2"><Maximize className="w-4 h-4 text-rosental-400" /> Außenbereich</div>
-                                    <div className="flex items-center gap-2"><Sun className="w-4 h-4 text-rosental-400" /> Teilüberdacht</div>
-                                    <div className="flex items-center gap-2"><Users className="w-4 h-4 text-rosental-400" /> bis 150 Personen</div>
+                                    <div className="flex items-center gap-2"><Maximize className="w-4 h-4 text-rosental-400" /> {t('location.rooms.2.details.0')}</div>
+                                    <div className="flex items-center gap-2"><Sun className="w-4 h-4 text-rosental-400" /> {t('location.rooms.2.details.1')}</div>
+                                    <div className="flex items-center gap-2"><Users className="w-4 h-4 text-rosental-400" /> {t('location.rooms.2.details.2')}</div>
                                 </div>
                             </div>
                             <div className="order-1 md:order-2 h-[400px] bg-stone-100 rounded-sm overflow-hidden">
@@ -138,9 +140,9 @@ const LocationPage = () => {
 
             <section className="bg-rosental-50 py-24">
                 <div className="max-w-7xl mx-auto px-6 text-center">
-                    <h2 className="text-3xl font-serif mb-8">Besuchen Sie uns</h2>
+                    <h2 className="text-3xl font-serif mb-8">{t('location.visit.title')}</h2>
                     <p className="text-stone-600 max-w-2xl mx-auto mb-12">
-                        Bilder sagen viel, aber das Gefühl, in unseren Räumen zu stehen, ist durch nichts zu ersetzen. Vereinbaren Sie einen Besichtigungstermin.
+                        {t('location.visit.text')}
                     </p>
                     <div className="flex justify-center items-center gap-4 text-stone-900 font-medium">
                         <MapPin className="w-5 h-5 text-rosental-500" />

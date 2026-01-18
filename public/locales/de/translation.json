@@ -8,6 +8,12 @@
         "about": "Über Uns",
         "contact": "Kontakt"
     },
+    "home": {
+        "seo": {
+            "title": "Kupferhof Rosental | Exklusive Eventlocation in Stolberg",
+            "description": "Feiern Sie unvergessliche Hochzeiten und Events im historischen Kupferhof Rosental in Stolberg (Rhld.). Einzigartiges Ambiente für Ihre besonderen Momente."
+        }
+    },
     "hero": {
         "slides": {
             "0": {
@@ -66,5 +72,477 @@
             "press": "Presse"
         },
         "rights": "© {{year}} Kupferhof Rosental. Alle Rechte vorbehalten."
+    },
+    "about": {
+        "tag": "Über den Kupferhof",
+        "title": "Ein historisches Juwel im Herzen des Vichtbachtals",
+        "p1": "Der Kupferhof Rosental blickt auf eine lange Tradition zurück. Einst Herzstück der Stolberger Kupferindustrie, ist er heute eine der exklusivsten Hochzeitslocations im Raum Aachen.",
+        "p2": "Die liebevoll restaurierten Gebäude und die weitläufige Parkanlage bieten eine einzigartige Atmosphäre für Ihren besonderen Tag. Nur wenige Minuten von Aachen entfernt, finden Sie hier Ruhe, Eleganz und geschichtsträchtiges Flair. Ob freie Trauung im Rosengarten oder festliches Dinner im Ballsaal – wir machen Ihre Träume wahr.",
+        "stats": {
+            "history": {
+                "val": "17. Jh.",
+                "label": "Historie"
+            },
+            "park": {
+                "val": "5 Ha",
+                "label": "Parkanlage"
+            }
+        },
+        "cta": "Termin vereinbaren"
+    },
+    "stats": {
+        "title": "Warum Kupferhof Rosental?",
+        "subtitle": "Exzellenz bis ins kleinste Detail",
+        "items": {
+            "0": {
+                "label": "Hochzeiten",
+                "target": "400"
+            },
+            "1": {
+                "label": "Glückliche Paare",
+                "target": "800"
+            },
+            "2": {
+                "label": "Events",
+                "target": "360"
+            },
+            "3": {
+                "label": "Jahre Erfahrung",
+                "target": "16"
+            }
+        }
+    },
+    "testimonials": {
+        "title": "Das sagen unsere Brautpaare",
+        "subtitle": "Jedes Paar, das bei uns gefeiert hat, verliebte sich in die Atmosphäre. Werden Sie Teil unserer Geschichte.",
+        "items": {
+            "0": {
+                "name": "Julia M.",
+                "role": "Hochzeitsgast",
+                "text": "Sie haben unsere Hochzeit einfach wundervoll gemacht. Bevor wir den Kupferhof wählten, sprachen wir mit vielen Locations, aber diese war definitiv die beste Wahl. Atemberaubend!"
+            },
+            "1": {
+                "name": "Thomas & Sarah",
+                "role": "Hochzeitspaar",
+                "text": "Die Zusammenarbeit mit dem Kupferhof-Team war ein absolutes Vergnügen!! Sie waren unglaublich aufmerksam und organisiert und sorgten dafür, dass unsere Hochzeit reibungslos verlief."
+            },
+            "2": {
+                "name": "Michael S.",
+                "role": "Firmenfeier",
+                "text": "Das Team hat alle unsere Erwartungen übertroffen. Von der beeindruckenden Location bis zum tadellosen Service war alles perfekt. Unsere Gäste schwärmen immer noch!"
+            }
+        }
+    },
+    "portfolio": {
+        "title": "Unsere Impressionen",
+        "subtitle": "Momente für die Ewigkeit",
+        "overlay": {
+            "gallery": "Galerie ansehen",
+            "details": "Details ansehen",
+            "inspiration": "Inspiration"
+        },
+        "instagram": "Mehr Bilder auf Instagram"
+    },
+    "contact": {
+        "title": "Planen Sie Ihren Perfekten Tag",
+        "subtitle": "Bereit für Ihre Traumhochzeit im Kupferhof Rosental? Füllen Sie das Formular aus und wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+        "info": {
+            "visit": "Besuchstermin",
+            "call": "Anrufen",
+            "email": "E-Mail"
+        },
+        "form": {
+            "name": "Ihr Name *",
+            "name_ph": "Max Mustermann",
+            "email": "E-Mail Adresse *",
+            "email_ph": "max@beispiel.de",
+            "phone": "Telefonnummer",
+            "phone_ph": "+49 123 456 789",
+            "date": "Geplantes Datum",
+            "guests": "Anzahl der Gäste",
+            "guests_ph": "Bitte wählen...",
+            "items": [
+                "1-50 Gäste",
+                "51-100 Gäste",
+                "101-150 Gäste",
+                "151-200 Gäste",
+                "200+ Gäste"
+            ],
+            "message": "Ihre Nachricht *",
+            "message_ph": "Erzählen Sie uns von Ihrer Traumhochzeit...",
+            "privacy": "Ich habe die <1>Datenschutzerklärung</1> zur Kenntnis genommen und stimme zu, dass meine Angaben zur Kontaktaufnahme und für Rückfragen dauerhaft gespeichert werden.*",
+            "submit": "Anfrage senden",
+            "success": "Vielen Dank für Ihre Anfrage! Wir melden uns in Kürze."
+        }
+    },
+    "events": {
+        "seo": {
+            "title": "Exklusive Events & Tagungen | Kupferhof Rosental",
+            "description": "Firmenevents, Tagungen oder private Feiern. Der Kupferhof Rosental bietet den perfekten Rahmen für Veranstaltungen jeder Art in Stolberg."
+        },
+        "header": {
+            "title": "Events & Tagungen.",
+            "subtitle": "Raum für Innovationen, Begegnungen und unvergessliche Momente. Professionell. Stilvoll. Einzigartig."
+        },
+        "intro": {
+            "tag": "Business meets History",
+            "title": "Arbeiten in<br />neuer Atmosphäre.",
+            "text": "Verlassen Sie gewohnte Bahnen und finden Sie neue Inspiration in den historischen Mauern des Kupferhof Rosental. Ob konzentrierte Strategietagung, kreativer Workshop oder glanzvolles Firmenjubiläum – unser Ambiente fördert den Austausch und schafft bleibende Eindrücke.",
+            "list": {
+                "0": "Exklusivität für Ihre Gruppe",
+                "1": "Modernste Tagungstechnik",
+                "2": "Flexible Raumkonzepte"
+            },
+            "imagequote": "\"Der perfekte Ort, um neue Perspektiven zu entwickeln.\""
+        },
+        "formats": {
+            "title": "Für jeden Anlass das passende Format",
+            "cards": {
+                "0": {
+                    "title": "Tagungen & Seminare",
+                    "desc": "Konzentriertes Arbeiten abseits des Büroalltags. Helle Räume und Weitblick sorgen für frische Gedanken."
+                },
+                "1": {
+                    "title": "Firmenfeiern",
+                    "desc": "Weihnachtsfeiern, Sommerfeste oder Jubiläen. Feiern Sie Erfolge in einem Rahmen, der Wertschätzung ausdrückt."
+                },
+                "2": {
+                    "title": "Private Feste",
+                    "desc": "Geburtstage, Taufen oder Kommunionen. Wir machen aus Ihrem Familienfest eine unvergessliche Erinnerung."
+                }
+            }
+        },
+        "cta": {
+            "title": "Bereit für Ihr nächstes Event?",
+            "text": "Kontaktieren Sie uns für ein unverbindliches Angebot. Unser Event-Team unterstützt Sie von der ersten Idee bis zur perfekten Umsetzung.",
+            "button": "Jetzt anfragen"
+        }
+    },
+    "weddings": {
+        "seo": {
+            "title": "Exklusive Hochzeiten im Kupferhof Rosental | Stolberg",
+            "description": "Feiern Sie Ihre Traumhochzeit im historischen Ambiente. Maßgeschneiderte Konzepte, exquisites Catering und unvergessliche Momente."
+        },
+        "header": {
+            "title": "Ihre Hochzeit.",
+            "subtitle": "Ein Tag, so einzigartig wie Ihre Liebe. Feiern Sie im historischen Ambiente des Kupferhof Rosental."
+        },
+        "intro": {
+            "tag": "Der Beginn einer Reise",
+            "title": "Geschichte schreiben.<br />Gemeinsam.",
+            "text1": "Es gibt Orte, die behält man für immer im Herzen. Der Kupferhof Rosental ist ein solcher Ort. Inmitten von Stolberg gelegen, verbindet unser historisches Gemäuer Jahrhunderte alte Tradition mit moderner Eleganz.",
+            "text2": "Ob eine intime Zeremonie im kleinen Kreis oder ein rauschendes Fest bis in die Morgenstunden – wir schaffen den perfekten Rahmen für Ihren großen Tag. Lassen Sie sich von der Magie unseres Innenhofs verzaubern und genießen Sie den Luxus, Gastgeber in einer der exklusivsten Locations der Region zu sein.",
+            "guests": "Gäste bis 150 Personen"
+        },
+        "features": {
+            "title": "Alles für Ihren perfekten Tag",
+            "subtitle": "Wir kümmern uns um die Details, damit Sie sich auf das Wichtigste konzentrieren können: Ja zu sagen.",
+            "cards": {
+                "0": {
+                    "title": "Freie Trauung",
+                    "desc": "Unser romantischer Innenhof oder die stilvollen Säle bieten die perfekte Kulisse für Ihre emotionsgeladene Zeremonie."
+                },
+                "1": {
+                    "title": "Exquisites Catering",
+                    "desc": "Vom Sektempfang bis zum Mitternachtssnack – unsere kulinarischen Partner verwöhnen Sie und Ihre Gäste auf höchstem Niveau."
+                },
+                "2": {
+                    "title": "Party bis zum Morgen",
+                    "desc": "Keine Sperrstunde, keine Kompromisse. Unsere modernste Licht- und Tontechnik sorgt für die Party Ihres Lebens."
+                }
+            }
+        },
+        "parallax": {
+            "tag": "Momente für die Ewigkeit",
+            "title": "Ein Fest der Liebe.",
+            "button": "Galerie ansehen"
+        },
+        "rooms": {
+            "tag": "Die Räumlichkeiten",
+            "title": "Platz für Ihre Träume",
+            "items": {
+                "0": {
+                    "title": "Großer Festsaal",
+                    "desc": "Bis zu 120 Personen sitzend. Hohe Decken, bodentiefe Fenster und direkter Zugang zur Terrasse."
+                },
+                "1": {
+                    "title": "Kaminzimmer",
+                    "desc": "Für den intimen Empfang oder als Lounge-Bereich. Gemütliche Atmosphäre mit echtem Kamin."
+                },
+                "2": {
+                    "title": "Innenhof",
+                    "desc": "Der perfekte Ort für Ihren Sektempfang oder eine freie Trauung unter freiem Himmel."
+                }
+            }
+        }
+    },
+    "location": {
+        "seo": {
+            "title": "Die Location | Kupferhof Rosental",
+            "description": "Entdecken Sie die Räumlichkeiten des Kupferhof Rosental. Historischer Charme trifft auf modernen Komfort in Stolberg."
+        },
+        "header": {
+            "title": "Der Kupferhof.",
+            "subtitle": "Ein architektonisches Juwel im Herzen von Stolberg. Entdecken Sie Räume mit Charakter."
+        },
+        "intro": {
+            "tag": "Architektur & Historie",
+            "title": "Wände, die Geschichten erzählen.",
+            "text": "Der Kupferhof Rosental ist mehr als nur ein Gebäude. Er ist ein Zeugnis der blühenden Kupfermeister-Epoche Stolbergs. Liebevoll restauriert, verbindet er heute den rauen Charme des Industriedenkmals mit der Eleganz einer modernen Eventlocation."
+        },
+        "rooms": {
+            "0": {
+                "title": "Der Große Festsaal",
+                "desc": "Unser Herzstück. Mit seinen hohen Decken, dem edlen Parkettboden und den lichtdurchfluteten Fenstern bietet der Festsaal ein Ambiente von zeitloser Eleganz. Ideal für große Bankette, Hochzeiten und Vorträge.",
+                "details": [
+                    "200 m² Fläche",
+                    "Tageslicht",
+                    "bis 120 Personen",
+                    "Klimatisiert"
+                ]
+            },
+            "1": {
+                "title": "Das Kaminzimmer",
+                "desc": "Intim und gemütlich. Das Kaminzimmer mit seinem offenen Kamin ist der perfekte Rückzugsort für kleinere Gesellschaften, Empfänge oder als stilvolle Lounge während Ihrer großen Feier.",
+                "details": [
+                    "80 m² Fläche",
+                    "Zugang Terrasse",
+                    "bis 40 Personen"
+                ]
+            },
+            "2": {
+                "title": "Der Innenhof",
+                "desc": "Ein Stück Italien in Stolberg. Unser geschützter Innenhof bietet Privatsphäre unter freiem Himmel. Perfekt für freie Trauungen, Sektempfänge oder das entspannte Beisammensein an lauen Sommerabenden.",
+                "details": [
+                    "Außenbereich",
+                    "Teilüberdacht",
+                    "bis 150 Personen"
+                ]
+            }
+        },
+        "visit": {
+            "title": "Besuchen Sie uns",
+            "text": "Bilder sagen viel, aber das Gefühl, in unseren Räumen zu stehen, ist durch nichts zu ersetzen. Vereinbaren Sie einen Besichtigungstermin."
+        }
+    },
+    "catering": {
+        "seo": {
+            "title": "Kulinarik & Catering | Kupferhof Rosental",
+            "description": "Genussmomente für Ihr Event. Exquisites Catering, erlesene Weine und erstklassiger Service im Kupferhof Rosental."
+        },
+        "header": {
+            "title": "Kulinarik.",
+            "subtitle": "Liebe geht durch den Magen. Lassen Sie sich und Ihre Gäste verwöhnen."
+        },
+        "intro": {
+            "tag": "Geschmack & Ästhetik",
+            "title": "Ein Fest für die Sinne.",
+            "text1": "Wir glauben, dass gutes Essen die Seele eines jeden Festes ist. Deshalb arbeiten wir ausschließlich mit ausgewählten Catering-Partnern zusammen, die unseren hohen Anspruch an Qualität, Frische und Kreativität teilen.",
+            "text2": "Ob rustikales BBQ im Innenhof, ein elegantes 5-Gänge-Menü oder trendiges Flying Buffet – wir kreieren gemeinsam mit Ihnen das perfekte kulinarische Konzept für Ihre Veranstaltung."
+        },
+        "food": {
+            "0": {
+                "title": "Fine Dining"
+            },
+            "1": {
+                "title": "Flying Buffet"
+            },
+            "2": {
+                "title": "BBQ & Grill"
+            },
+            "3": {
+                "title": "Sweets & Cakes"
+            }
+        },
+        "features": {
+            "0": {
+                "title": "Top Chefs",
+                "desc": "Erfahrene Küchenteams"
+            },
+            "1": {
+                "title": "Individuell",
+                "desc": "Menü nach Ihren Wünschen"
+            },
+            "2": {
+                "title": "Weinbegleitung",
+                "desc": "Sommelier-Auswahl"
+            },
+            "3": {
+                "title": "Service",
+                "desc": "Aufmerksam & Herzlich"
+            }
+        }
+    },
+    "accommodation": {
+        "seo": {
+            "title": "Übernachten | Kupferhof Rosental",
+            "description": "Entspannen Sie in unseren exklusiven Suiten. Historischer Charme trifft auf modernen Komfort. Übernachten im Kupferhof Rosental."
+        },
+        "header": {
+            "title": "Suiten & Zimmer.",
+            "subtitle": "Ruhe finden nach einem rauschenden Fest. Träumen Sie inmitten von Geschichte."
+        },
+        "intro": "Unsere Gästezimmer vereinen den Charakter des historischen Kupferhofs mit zeitgemäßem Luxus. Jedes Zimmer ist ein Unikat, liebevoll eingerichtet mit ausgewählten Materialien und einem Blick für Details.",
+        "suite": {
+            "tag": "Das Highlight",
+            "title": "Die Hochzeitssuite",
+            "desc": "Großzügig geschnitten und lichtdurchflutet. Unsere Hochzeitssuite bietet dem Brautpaar einen Rückzugsort der Extraklasse. Mit freistehender Badewanne, King-Size Bett und einem atemberaubenden Blick in den Innenhof.",
+            "features": [
+                "High-Speed WLAN",
+                "Freistehende Wanne",
+                "Nespresso Maschine",
+                "King-Size Bett"
+            ]
+        },
+        "guest": {
+            "tag": "Für Gäste",
+            "title": "Gästezimmer",
+            "desc": "Für Ihre engsten Familie und Freunde stehen weitere stilvolle Doppelzimmer zur Verfügung. So können Sie das Fest gemeinsam beim Frühstück am nächsten Morgen ausklingen lassen.",
+            "features": [
+                "High-Speed WLAN",
+                "Rainshower Dusche",
+                "Tee & Wasser",
+                "Queen-Size Bett"
+            ]
+        }
+    },
+    "aboutPage": {
+        "seo": {
+            "title": "Über Uns | Kupferhof Rosental",
+            "description": "Lernen Sie das Team hinter dem Kupferhof Rosental kennen. Unsere Philosophie, unsere Geschichte und unsere Leidenschaft für Events."
+        },
+        "header": {
+            "title": "Über Uns.",
+            "subtitle": "Ein Ort mit Geschichte. Ein Team mit Leidenschaft."
+        },
+        "intro": {
+            "title": "Unsere Philosophie",
+            "text1": "Gastfreundschaft ist für uns mehr als nur ein Wort – es ist eine Haltung. Wir verstehen uns nicht nur als Vermieter einer Location, sondern als Gastgeber aus Leidenschaft.",
+            "text2": "Unser Ziel ist es, für jeden Gast eine Atmosphäre zu schaffen, in der er sich willkommen und geborgen fühlt. Wir lieben Details, wir schätzen Qualität und wir leben für den Moment, in dem aus einer Planung ein unvergessliches Erlebnis wird."
+        },
+        "team": {
+            "caption": "Das Team des Kupferhof Rosental freut sich auf Sie."
+        },
+        "history": {
+            "title": "Historie",
+            "text": "Der Kupferhof Rosental blickt auf eine jahrhundertelange Geschichte zurück. Einst als Produktionsstätte für Messing errichtet, zeugen die Mauern noch heute vom fleißigen Treiben vergangener Epochen. Die sorgfältige Restaurierung hat den industriellen Charme bewahrt und mit moderner Eleganz verbunden."
+        },
+        "sustainability": {
+            "title": "Nachhaltigkeit",
+            "text": "Wir handeln verantwortungsbewusst. Regionale Produkte beim Catering, energieeffiziente Technik und ein respektvoller Umgang mit der historischen Bausubstanz sind für uns selbstverständlich."
+        }
+    },
+    "contactPage": {
+        "seo": {
+            "title": "Kontakt & Anfrage | Kupferhof Rosental",
+            "description": "Senden Sie uns Ihre Anfrage für Hochzeiten, Events oder Tagungen. Wir beraten Sie gerne persönlich."
+        },
+        "header": {
+            "title": "Kontakt.",
+            "subtitle": "Wir freuen uns darauf, von Ihnen zu hören und gemeinsam Ihr Event zu planen."
+        },
+        "info": {
+            "title": "Lassen Sie uns sprechen",
+            "text": "Jedes Event beginnt mit einem ersten Gespräch. Erzählen Sie uns von Ihren Vorstellungen, oder vereinbaren Sie einen Besichtigungstermin um den Zauber des Kupferhofs selbst zu erleben.",
+            "phone": "Telefon",
+            "email": "E-Mail",
+            "address": "Adresse"
+        },
+        "form": {
+            "title": "Anfrage senden",
+            "name": "Name",
+            "namePh": "Ihr Name",
+            "email": "E-Mail",
+            "emailPh": "ihre@email.de",
+            "phone": "Telefon",
+            "phonePh": "Rückrufnummer",
+            "eventType": "Art des Events",
+            "select": {
+                "placeholder": "Bitte wählen...",
+                "wedding": "Hochzeit",
+                "corporate": "Firmenfeier",
+                "conference": "Tagung",
+                "private": "Privates Fest",
+                "other": "Sonstiges"
+            },
+            "message": "Nachricht",
+            "messagePh": "Erzählen Sie uns mehr über Ihre Pläne...",
+            "privacy": "Datenschutz",
+            "privacyText": "Ich stimme zu, dass meine Angaben zur Kontaktaufnahme und Zuordnung für eventuelle Rückfragen dauerhaft gespeichert werden.",
+            "submit": "Nachricht absenden",
+            "success": "Vielen Dank für Ihre Anfrage! Wir melden uns in Kürze."
+        }
+    },
+    "impressum": {
+        "seo": {
+            "title": "Impressum | Kupferhof Rosental"
+        },
+        "header": {
+            "title": "Impressum.",
+            "subtitle": "Rechtliche Informationen und Angaben gemäß § 5 TMG."
+        },
+        "tmg": {
+            "title": "Angaben gemäß § 5 TMG"
+        },
+        "contact": {
+            "title": "Kontakt"
+        },
+        "representative": {
+            "title": "Vertreten durch",
+            "text": "[Name der Geschäftsführung hier einfügen]"
+        },
+        "register": {
+            "title": "Registereintrag",
+            "text": "Eintragung im Handelsregister.<br />Registergericht: [Amtsgericht]<br />Registernummer: [HRB Nummer]"
+        },
+        "vat": {
+            "title": "Umsatzsteuer-ID",
+            "text": "Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />[DE XXXXXXXX]"
+        },
+        "disclaimer": {
+            "title": "Haftungsausschluss (Disclaimer)",
+            "content_liability": {
+                "title": "Haftung für Inhalte",
+                "text": "Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen."
+            },
+            "link_liability": {
+                "title": "Haftung für Links",
+                "text": "Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich."
+            },
+            "copyright": {
+                "title": "Urheberrecht",
+                "text": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers."
+            }
+        }
+    },
+    "agb": {
+        "seo": {
+            "title": "AGB | Kupferhof Rosental"
+        },
+        "header": {
+            "title": "AGB.",
+            "subtitle": "Allgemeine Geschäftsbedingungen für Veranstaltungen."
+        },
+        "intro": {
+            "title": "Allgemeine Geschäftsbedingungen",
+            "text": "Für die Überlassung von Konferenz-, Bankett- und Veranstaltungsräumen des Kupferhof Rosental zur Durchführung von Veranstaltungen sowie für alle damit zusammenhängenden weiteren Leistungen und Lieferungen."
+        },
+        "sections": {
+            "1": {
+                "title": "1. Geltungsbereich",
+                "text1": "1.1 Diese Geschäftsbedingungen gelten für Verträge über die mietweise Überlassung von Konferenz-, Bankett- und Veranstaltungsräumen des Kupferhof Rosental zur Durchführung von Veranstaltungen sowie für alle damit zusammenhängenden weiteren Leistungen und Lieferungen des Veranstalters.",
+                "text2": "1.2 Die Unter- oder Weitervermietung der überlassenen Räume sowie die Einladung zu Vorstellungsgesprächen, Verkaufs- oder ähnlichen Veranstaltungen bedürfen der vorherigen schriftlichen Zustimmung."
+            },
+            "2": {
+                "title": "2. Vertragsabschluss, -partner, Haftung",
+                "text1": "2.1 Der Vertrag kommt durch die Annahme des Antrags des Kunden durch den Kupferhof Rosental zustande.",
+                "text2": "2.2 Vertragspartner sind der Kupferhof Rosental und der Kunde."
+            },
+            "3": {
+                "title": "3. Leistungen, Preise, Zahlung, Aufrechnung",
+                "text1": "3.1 Der Kupferhof Rosental ist verpflichtet, die vom Kunden bestellten und von ihm zugesagten Leistungen zu erbringen.",
+                "text2": "3.2 Der Kunde ist verpflichtet, die für diese und weitere in Anspruch genommene Leistungen vereinbarten bzw. geltenden Preise zu zahlen."
+            }
+        }
     }
 }

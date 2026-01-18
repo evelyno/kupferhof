@@ -8,6 +8,12 @@
         "about": "About Us",
         "contact": "Contact"
     },
+    "home": {
+        "seo": {
+            "title": "Kupferhof Rosental | Exclusive Event Location in Stolberg",
+            "description": "Celebrate unforgettable weddings and events at the historic Kupferhof Rosental in Stolberg (Rhld.). Unique ambiance for your special moments."
+        }
+    },
     "hero": {
         "slides": {
             "0": {
@@ -66,5 +72,477 @@
             "press": "Press"
         },
         "rights": "© {{year}} Kupferhof Rosental. All rights reserved."
+    },
+    "about": {
+        "tag": "About the Kupferhof",
+        "title": "A historic jewel in the heart of the Vichtbach Valley",
+        "p1": "Kupferhof Rosental looks back on a long tradition. Once the heart of Stolberg's copper industry, it is now one of the most exclusive wedding venues in the Aachen region.",
+        "p2": "The lovingly restored buildings and the extensive park offer a unique atmosphere for your special day. Just a few minutes from Aachen, you will find peace, elegance, and historic flair here. Whether a free wedding ceremony in the rose garden or a festive dinner in the ballroom – we make your dreams come true.",
+        "stats": {
+            "history": {
+                "val": "17th C.",
+                "label": "History"
+            },
+            "park": {
+                "val": "5 Ha",
+                "label": "Park Area"
+            }
+        },
+        "cta": "Make an Appointment"
+    },
+    "stats": {
+        "title": "Why Kupferhof Rosental?",
+        "subtitle": "Excellence down to the smallest detail",
+        "items": {
+            "0": {
+                "label": "Weddings",
+                "target": "400"
+            },
+            "1": {
+                "label": "Happy Couples",
+                "target": "800"
+            },
+            "2": {
+                "label": "Events",
+                "target": "360"
+            },
+            "3": {
+                "label": "Years Experience",
+                "target": "16"
+            }
+        }
+    },
+    "testimonials": {
+        "title": "What our couples say",
+        "subtitle": "Every couple who celebrated with us fell in love with the atmosphere. Become part of our story.",
+        "items": {
+            "0": {
+                "name": "Julia M.",
+                "role": "Wedding Guest",
+                "text": "You made our wedding simply wonderful. Before we chose Kupferhof, we spoke to many venues, but this was definitely the best choice. Breathtaking!"
+            },
+            "1": {
+                "name": "Thomas & Sarah",
+                "role": "Wedding Couple",
+                "text": "Working with the Kupferhof team was an absolute pleasure!! They were incredibly attentive, organized, and ensured our wedding went smoothly."
+            },
+            "2": {
+                "name": "Michael S.",
+                "role": "Corporate Event",
+                "text": "The team exceeded all our expectations. From the impressive venue to the impeccable service, everything was perfect. Our guests are still raving about it!"
+            }
+        }
+    },
+    "portfolio": {
+        "title": "Our Impressions",
+        "subtitle": "Moments for eternity",
+        "overlay": {
+            "gallery": "View Gallery",
+            "details": "View Details",
+            "inspiration": "Inspiration"
+        },
+        "instagram": "More pictures on Instagram"
+    },
+    "contact": {
+        "title": "Plan Your Perfect Day",
+        "subtitle": "Ready for your dream wedding at Kupferhof Rosental? Fill out the form and we will get back to you within 24 hours.",
+        "info": {
+            "visit": "Visit Us",
+            "call": "Call Us",
+            "email": "Email"
+        },
+        "form": {
+            "name": "Your Name *",
+            "name_ph": "John Doe",
+            "email": "Email Address *",
+            "email_ph": "john@example.com",
+            "phone": "Phone Number",
+            "phone_ph": "+49 123 456 789",
+            "date": "Planned Date",
+            "guests": "Number of Guests",
+            "guests_ph": "Please select...",
+            "items": [
+                "1-50 Guests",
+                "51-100 Guests",
+                "101-150 Guests",
+                "151-200 Guests",
+                "200+ Guests"
+            ],
+            "message": "Your Message *",
+            "message_ph": "Tell us about your dream wedding...",
+            "privacy": "I have read the <1>Privacy Policy</1> and agree that my details will be stored permanently for contact and queries.*",
+            "submit": "Send Inquiry",
+            "success": "Thank you for your inquiry! We will get back to you shortly."
+        }
+    },
+    "events": {
+        "seo": {
+            "title": "Exclusive Events & Conferences | Kupferhof Rosental",
+            "description": "Corporate events, conferences, or private parties. Kupferhof Rosental offers the perfect setting for events of any kind in Stolberg."
+        },
+        "header": {
+            "title": "Events & Conferences.",
+            "subtitle": "Space for innovation, encounters, and unforgettable moments. Professional. Stylish. Unique."
+        },
+        "intro": {
+            "tag": "Business meets History",
+            "title": "Working in a<br />New Atmosphere.",
+            "text": "Leave familiar paths and find new inspiration within the historic walls of Kupferhof Rosental. Whether a focused strategy meeting, a creative workshop, or a glamorous corporate anniversary – our ambiance fosters exchange and creates lasting impressions.",
+            "list": {
+                "0": "Exclusivity for your group",
+                "1": "State-of-the-art conference technology",
+                "2": "Flexible room concepts"
+            },
+            "imagequote": "\"The perfect place to develop new perspectives.\""
+        },
+        "formats": {
+            "title": "The Right Format for Every Occasion",
+            "cards": {
+                "0": {
+                    "title": "Conferences & Seminars",
+                    "desc": "Focused work away from everyday office life. Bright rooms and wide views ensure fresh thoughts."
+                },
+                "1": {
+                    "title": "Corporate Parties",
+                    "desc": "Christmas parties, summer festivals, or anniversaries. Celebrate successes in a setting that expresses appreciation."
+                },
+                "2": {
+                    "title": "Private Celebrations",
+                    "desc": "Birthdays, baptisms, or communions. We turn your family celebration into an unforgettable memory."
+                }
+            }
+        },
+        "cta": {
+            "title": "Ready for Your Next Event?",
+            "text": "Contact us for a non-binding offer. Our event team supports you from the first idea to perfect implementation.",
+            "button": "Inquire Now"
+        }
+    },
+    "weddings": {
+        "seo": {
+            "title": "Exclusive Weddings at Kupferhof Rosental | Stolberg",
+            "description": "Celebrate your dream wedding in a historic ambiance. Tailor-made concepts, exquisite catering, and unforgettable moments."
+        },
+        "header": {
+            "title": "Your Wedding.",
+            "subtitle": "A day as unique as your love. Celebrate in the historic ambiance of Kupferhof Rosental."
+        },
+        "intro": {
+            "tag": "The Beginning of a Journey",
+            "title": "Writing History.<br />Together.",
+            "text1": "There are places you keep in your heart forever. Kupferhof Rosental is such a place. Located in the heart of Stolberg, our historic walls combine centuries-old tradition with modern elegance.",
+            "text2": "Whether an intimate ceremony in a small circle or a lavish party until dawn – we create the perfect setting for your big day. Let yourself be enchanted by the magic of our courtyard and enjoy the luxury of being a host in one of the region's most exclusive locations.",
+            "guests": "Guests up to 150 people"
+        },
+        "features": {
+            "title": "Everything for Your Perfect Day",
+            "subtitle": "We take care of the details so you can focus on what matters most: Saying I do.",
+            "cards": {
+                "0": {
+                    "title": "Free Ceremony",
+                    "desc": "Our romantic courtyard or stylish halls offer the perfect backdrop for your emotional ceremony."
+                },
+                "1": {
+                    "title": "Exquisite Catering",
+                    "desc": "From champagne reception to midnight snack – our culinary partners spoil you and your guests at the highest level."
+                },
+                "2": {
+                    "title": "Party Until Dawn",
+                    "desc": "No curfew, no compromises. Our state-of-the-art light and sound technology ensures the party of your life."
+                }
+            }
+        },
+        "parallax": {
+            "tag": "Moments for Eternity",
+            "title": "A Celebration of Love.",
+            "button": "View Gallery"
+        },
+        "rooms": {
+            "tag": "The Premises",
+            "title": "Space for Your Dreams",
+            "items": {
+                "0": {
+                    "title": "Grand Ballroom",
+                    "desc": "Up to 120 people seated. High ceilings, floor-to-ceiling windows, and direct access to the terrace."
+                },
+                "1": {
+                    "title": "Fireplace Room",
+                    "desc": "For an intimate reception or as a lounge area. Cozy atmosphere with a real fireplace."
+                },
+                "2": {
+                    "title": "Courtyard",
+                    "desc": "The perfect place for your champagne reception or an open-air ceremony."
+                }
+            }
+        }
+    },
+    "location": {
+        "seo": {
+            "title": "The Location | Kupferhof Rosental",
+            "description": "Discover the premises of Kupferhof Rosental. Historic charm meets modern comfort in Stolberg."
+        },
+        "header": {
+            "title": "The Kupferhof.",
+            "subtitle": "An architectural jewel in the heart of Stolberg. Discover rooms with character."
+        },
+        "intro": {
+            "tag": "Architecture & History",
+            "title": "Walls That Tell Stories.",
+            "text": "Kupferhof Rosental is more than just a building. It is a testament to Stolberg's flourishing copper master era. Lovingly restored, it today combines the rough charm of the industrial monument with the elegance of a modern event location."
+        },
+        "rooms": {
+            "0": {
+                "title": "The Grand Ballroom",
+                "desc": "Our centerpiece. With its high ceilings, noble parquet floor, and light-flooded windows, the ballroom offers an ambiance of timeless elegance. Ideal for large banquets, weddings, and lectures.",
+                "details": [
+                    "200 m² Area",
+                    "Daylight",
+                    "up to 120 people",
+                    "Air Conditioned"
+                ]
+            },
+            "1": {
+                "title": "The Fireplace Room",
+                "desc": "Intimate and cozy. The fireplace room with its open fireplace is the perfect retreat for smaller groups, receptions, or as a stylish lounge during your big celebration.",
+                "details": [
+                    "80 m² Area",
+                    "Terrace Access",
+                    "up to 40 people"
+                ]
+            },
+            "2": {
+                "title": "The Courtyard",
+                "desc": "A piece of Italy in Stolberg. Our protected courtyard offers privacy under the open sky. Perfect for free weddings, champagne receptions, or relaxed get-togethers on mild summer evenings.",
+                "details": [
+                    "Outdoor Area",
+                    "Partially Covered",
+                    "up to 150 people"
+                ]
+            }
+        },
+        "visit": {
+            "title": "Visit Us",
+            "text": "Pictures say a lot, but the feeling of standing in our rooms is irreplaceable. Arrange a viewing appointment."
+        }
+    },
+    "catering": {
+        "seo": {
+            "title": "Culinary & Catering | Kupferhof Rosental",
+            "description": "Moments of pleasure for your event. Exquisite catering, fine wines, and first-class service at Kupferhof Rosental."
+        },
+        "header": {
+            "title": "Culinary.",
+            "subtitle": "Love goes through the stomach. Let yourself and your guests be pampered."
+        },
+        "intro": {
+            "tag": "Taste & Aesthetics",
+            "title": "A Feast for the Senses.",
+            "text1": "We believe that good food is the soul of every celebration. That is why we work exclusively with selected catering partners who share our high standards of quality, freshness, and creativity.",
+            "text2": "Whether a rustic BBQ in the courtyard, an elegant 5-course menu, or a trendy flying buffet – we create the perfect culinary concept for your event together with you."
+        },
+        "food": {
+            "0": {
+                "title": "Fine Dining"
+            },
+            "1": {
+                "title": "Flying Buffet"
+            },
+            "2": {
+                "title": "BBQ & Grill"
+            },
+            "3": {
+                "title": "Sweets & Cakes"
+            }
+        },
+        "features": {
+            "0": {
+                "title": "Top Chefs",
+                "desc": "Experienced kitchen teams"
+            },
+            "1": {
+                "title": "Individual",
+                "desc": "Menu according to your wishes"
+            },
+            "2": {
+                "title": "Wine Pairing",
+                "desc": "Sommelier selection"
+            },
+            "3": {
+                "title": "Service",
+                "desc": "Attentive & Heartfelt"
+            }
+        }
+    },
+    "accommodation": {
+        "seo": {
+            "title": "Stay | Kupferhof Rosental",
+            "description": "Relax in our exclusive suites. Historic charm meets modern comfort. Stay at Kupferhof Rosental."
+        },
+        "header": {
+            "title": "Suites & Rooms.",
+            "subtitle": "Find peace after a lavish party. Dream amidst history."
+        },
+        "intro": "Our guest rooms combine the character of the historic Kupferhof with contemporary luxury. Each room is unique, lovingly furnished with selected materials and an eye for detail.",
+        "suite": {
+            "tag": "The Highlight",
+            "title": "The Wedding Suite",
+            "desc": "Spacious and flooded with light. Our wedding suite offers the bridal couple a retreat in a class of its own. With freestanding bathtub, king-size bed, and a breathtaking view of the courtyard.",
+            "features": [
+                "High-Speed WLAN",
+                "Freestanding Bathtub",
+                "Nespresso Machine",
+                "King-Size Bed"
+            ]
+        },
+        "guest": {
+            "tag": "For Guests",
+            "title": "Guest Rooms",
+            "desc": "Further stylish double rooms are available for your closest family and friends. So you can end the celebration together at breakfast the next morning.",
+            "features": [
+                "High-Speed WLAN",
+                "Rainshower Shower",
+                "Tea & Water",
+                "Queen-Size Bed"
+            ]
+        }
+    },
+    "aboutPage": {
+        "seo": {
+            "title": "About Us | Kupferhof Rosental",
+            "description": "Meet the team behind Kupferhof Rosental. Our philosophy, our history, and our passion for events."
+        },
+        "header": {
+            "title": "About Us.",
+            "subtitle": "A place with history. A team with passion."
+        },
+        "intro": {
+            "title": "Our Philosophy",
+            "text1": "Hospitality is more than just a word for us – it is an attitude. We see ourselves not only as landlords of a location but as hosts with passion.",
+            "text2": "Our goal is to create an atmosphere for every guest in which they feel welcome and secure. We love details, we value quality, and we live for the moment when a plan turns into an unforgettable experience."
+        },
+        "team": {
+            "caption": "The Kupferhof Rosental team looks forward to meeting you."
+        },
+        "history": {
+            "title": "History",
+            "text": "Kupferhof Rosental looks back on centuries of history. Once built as a production site for brass, the walls still bear witness to the busy activity of past eras today. Careful restoration has preserved the industrial charm and combined it with modern elegance."
+        },
+        "sustainability": {
+            "title": "Sustainability",
+            "text": "We act responsibly. Regional products for catering, energy-efficient technology, and respectful treatment of the historic building fabric are a matter of course for us."
+        }
+    },
+    "contactPage": {
+        "seo": {
+            "title": "Contact & Inquiry | Kupferhof Rosental",
+            "description": "Send us your inquiry for weddings, events, or conferences. We are happy to advise you personally."
+        },
+        "header": {
+            "title": "Contact.",
+            "subtitle": "We look forward to hearing from you and planning your event together."
+        },
+        "info": {
+            "title": "Let's Talk",
+            "text": "Every event begins with a first conversation. Tell us about your ideas, or arrange a viewing appointment to experience the magic of the Kupferhof yourself.",
+            "phone": "Phone",
+            "email": "E-mail",
+            "address": "Address"
+        },
+        "form": {
+            "title": "Send Inquiry",
+            "name": "Name",
+            "namePh": "Your Name",
+            "email": "E-mail",
+            "emailPh": "your@email.com",
+            "phone": "Phone",
+            "phonePh": "Callback Number",
+            "eventType": "Event Type",
+            "select": {
+                "placeholder": "Please choose...",
+                "wedding": "Wedding",
+                "corporate": "Corporate Celebration",
+                "conference": "Conference",
+                "private": "Private Party",
+                "other": "Other"
+            },
+            "message": "Message",
+            "messagePh": "Tell us more about your plans...",
+            "privacy": "Privacy",
+            "privacyText": "I agree that my details for contact and assignment for possible questions will be permanently stored.",
+            "submit": "Send Message",
+            "success": "Thank you for your inquiry! We will get back to you shortly."
+        }
+    },
+    "impressum": {
+        "seo": {
+            "title": "Imprint | Kupferhof Rosental"
+        },
+        "header": {
+            "title": "Imprint.",
+            "subtitle": "Legal information and details according to § 5 TMG."
+        },
+        "tmg": {
+            "title": "Information according to § 5 TMG"
+        },
+        "contact": {
+            "title": "Contact"
+        },
+        "representative": {
+            "title": "Represented by",
+            "text": "[Insert Name of Management]"
+        },
+        "register": {
+            "title": "Commercial Register Entry",
+            "text": "Entry in the commercial register.<br />Register court: [Local Court]<br />Register number: [HRB Number]"
+        },
+        "vat": {
+            "title": "VAT ID",
+            "text": "Sales tax identification number according to § 27 a Sales Tax Law:<br />[DE XXXXXXXX]"
+        },
+        "disclaimer": {
+            "title": "Disclaimer",
+            "content_liability": {
+                "title": "Liability for Content",
+                "text": "As a service provider, we are responsible for our own content on these pages in accordance with general laws pursuant to § 7 Abs.1 TMG. According to §§ 8 to 10 TMG, however, we as a service provider are not obliged to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity."
+            },
+            "link_liability": {
+                "title": "Liability for Links",
+                "text": "Our offer contains links to external third-party websites on whose content we have no influence. Therefore, we cannot assume any liability for this external content. The respective provider or operator of the pages is always responsible for the content of the linked pages."
+            },
+            "copyright": {
+                "title": "Copyright",
+                "text": "The content and works created by the site operators on these pages are subject to German copyright law. Duplication, processing, distribution, or any form of commercialization of such material beyond the scope of the copyright law shall require the prior written consent of its respective author or creator."
+            }
+        }
+    },
+    "agb": {
+        "seo": {
+            "title": "GTC | Kupferhof Rosental"
+        },
+        "header": {
+            "title": "GTC.",
+            "subtitle": "General Terms and Conditions for Events."
+        },
+        "intro": {
+            "title": "General Terms and Conditions",
+            "text": "For the rental of conference, banquet, and event rooms of Kupferhof Rosental for holding events as well as for all further associated services and deliveries."
+        },
+        "sections": {
+            "1": {
+                "title": "1. Scope of Applicability",
+                "text1": "1.1 These terms and conditions apply to contracts for the rental of conference, banquet, and event rooms of Kupferhof Rosental for holding events as well as for all further associated services and deliveries of the organizer.",
+                "text2": "1.2 The subletting or re-letting of the provided rooms as well as the invitation to interviews, sales or similar events maintain the prior written consent."
+            },
+            "2": {
+                "title": "2. Conclusion of Contract, Partners, Liability",
+                "text1": "2.1 The contract is concluded by the acceptance of the customer's application by Kupferhof Rosental.",
+                "text2": "2.2 The contracting parties are Kupferhof Rosental and the customer."
+            },
+            "3": {
+                "title": "3. Services, Prices, Payment, Set-off",
+                "text1": "3.1 Kupferhof Rosental is obliged to provide the services ordered by the customer and promised by it.",
+                "text2": "3.2 The customer is obliged to pay the agreed or applicable prices for these and other services used."
+            }
+        }
     }
 }

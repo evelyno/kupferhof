@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import { useTranslation } from 'react-i18next';
 import Hero from '../components/Hero';
 import Services from '../components/Services';
 import About from '../components/About';
@@ -8,11 +9,12 @@ import Testimonials from '../components/Testimonials';
 import Contact from '../components/Contact';
 
 const Home = () => {
+    const { t } = useTranslation();
     return (
         <>
             <Helmet>
-                <title>Kupferhof Rosental | Exklusive Eventlocation in Stolberg</title>
-                <meta name="description" content="Feiern Sie unvergessliche Hochzeiten und Events im historischen Kupferhof Rosental in Stolberg (Rhld.). Einzigartiges Ambiente für Ihre besonderen Momente." />
+                <title>{t('home.seo.title')}</title>
+                <meta name="description" content={t('home.seo.description')} />
                 <script type="application/ld+json">
                     {`
                     {

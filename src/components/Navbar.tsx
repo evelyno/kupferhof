@@ -75,6 +75,8 @@ const Navbar = () => {
                         <button onClick={() => changeLanguage('en')} className={cn("hover:text-rosental-500 transition-colors", i18n.language === 'en' && "font-bold underline")}>EN</button>
                         <span>|</span>
                         <button onClick={() => changeLanguage('fr')} className={cn("hover:text-rosental-500 transition-colors", i18n.language === 'fr' && "font-bold underline")}>FR</button>
+                        <span>|</span>
+                        <button onClick={() => changeLanguage('nl')} className={cn("hover:text-rosental-500 transition-colors", i18n.language === 'nl' && "font-bold underline")}>NL</button>
                     </div>
 
                     <Link to="/kontakt" className={cn(
@@ -117,6 +119,7 @@ const Navbar = () => {
                     <button onClick={() => changeLanguage('de')} className={cn("text-lg hover:text-rosental-400", i18n.language === 'de' && "font-bold text-rosental-400")}>DE</button>
                     <button onClick={() => changeLanguage('en')} className={cn("text-lg hover:text-rosental-400", i18n.language === 'en' && "font-bold text-rosental-400")}>EN</button>
                     <button onClick={() => changeLanguage('fr')} className={cn("text-lg hover:text-rosental-400", i18n.language === 'fr' && "font-bold text-rosental-400")}>FR</button>
+                    <button onClick={() => changeLanguage('nl')} className={cn("text-lg hover:text-rosental-400", i18n.language === 'nl' && "font-bold text-rosental-400")}>NL</button>
                 </div>
             </div>
         </>

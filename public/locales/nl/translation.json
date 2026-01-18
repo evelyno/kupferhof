@@ -1,0 +1,548 @@
+{
+    "nav": {
+        "welcome": "Welkom",
+        "weddings": "Bruiloften",
+        "events": "Evenementen",
+        "accommodation": "Overnachten",
+        "catering": "Catering",
+        "about": "Over Ons",
+        "contact": "Contact"
+    },
+    "home": {
+        "seo": {
+            "title": "Kupferhof Rosental | Exclusieve Evenementenlocatie in Stolberg",
+            "description": "Vier onvergetelijke bruiloften en evenementen in het historische Kupferhof Rosental in Stolberg (Rhld.). Unieke ambiance voor uw speciale momenten."
+        }
+    },
+    "hero": {
+        "slides": {
+            "0": {
+                "subtitle": "Exclusieve Locatie",
+                "title": "Kupferhof Rosental",
+                "subtitle2": "Historische Sfeer",
+                "tag": "SINDS 17E EEUW",
+                "cta": "Ontdek Kupferhof"
+            },
+            "1": {
+                "subtitle": "Natuur & Romantiek",
+                "title": "De Rozentuin",
+                "subtitle2": "Trouwen in de Buitenlucht",
+                "tag": "BUITEN",
+                "cta": "Verken Tuin"
+            },
+            "2": {
+                "subtitle": "Luxueus Interieur",
+                "title": "De Grote Balzaal",
+                "subtitle2": "Elegante Vieringen",
+                "tag": "INTERIEUR",
+                "cta": "Bekijk Zaal"
+            }
+        }
+    },
+    "services": {
+        "title": "Onze Diensten",
+        "subtitle": "Alles voor uw perfecte dag in Stolberg",
+        "cards": {
+            "0": {
+                "title": "Exclusieve Vieringen",
+                "description": "Van intieme recepties tot grootse bruiloftfeesten in de balzaal. Wij creëren onvergetelijke momenten voor u en uw gasten."
+            },
+            "1": {
+                "title": "Buitenceremonies",
+                "description": "Zeg \"Ja\" in onze schilderachtige rozentuin of in de historische sfeer van de binnenplaats. Pure romantiek in het hart van de regio Aken."
+            },
+            "2": {
+                "title": "Bedrijfsevenementen",
+                "description": "Inspirerende vergaderingen en conferenties in een historisch decor. Maak indruk op uw klanten en medewerkers met een unieke locatie."
+            }
+        }
+    },
+    "footer": {
+        "brand": "Kupferhof Rosental.<br />Historische sfeer voor<br />moderne ontmoetingen.",
+        "menu": "Menu",
+        "legal": "Wettelijk",
+        "contact": {
+            "title": "Contact",
+            "address": "Rathausstrasse 65-69,<br />52222 Stolberg (Rhld.)"
+        },
+        "links": {
+            "impressum": "Colofon",
+            "privacy": "Privacybeleid",
+            "terms": "Algemene Voorwaarden",
+            "press": "Pers"
+        },
+        "rights": "© {{year}} Kupferhof Rosental. Alle rechten voorbehouden."
+    },
+    "about": {
+        "tag": "Over de Kupferhof",
+        "title": "Een historisch juweel in het hart van het Vichtbach-dal",
+        "p1": "Kupferhof Rosental kijkt terug op een lange traditie. Ooit het hart van de koperindustrie in Stolberg, is het nu een van de meest exclusieve trouwlocaties in de regio Aken.",
+        "p2": "De liefdevol gerestaureerde gebouwen en het uitgestrekte park bieden een unieke sfeer voor uw speciale dag. Op slechts enkele minuten van Aken vindt u hier rust, elegantie en historische flair. Of het nu gaat om een vrije huwelijksceremonie in de rozentuin of een feestelijk diner in de balzaal – wij maken uw dromen waar.",
+        "stats": {
+            "history": {
+                "val": "17e Eeuw",
+                "label": "Geschiedenis"
+            },
+            "park": {
+                "val": "5 Ha",
+                "label": "Parkoppervlakte"
+            }
+        },
+        "cta": "Maak een Afspraak"
+    },
+    "stats": {
+        "title": "Waarom Kupferhof Rosental?",
+        "subtitle": "Uitmuntendheid tot in het kleinste detail",
+        "items": {
+            "0": {
+                "label": "Bruiloften",
+                "target": "400"
+            },
+            "1": {
+                "label": "Gelukkige Koppels",
+                "target": "800"
+            },
+            "2": {
+                "label": "Evenementen",
+                "target": "360"
+            },
+            "3": {
+                "label": "Jaren Ervaring",
+                "target": "16"
+            }
+        }
+    },
+    "testimonials": {
+        "title": "Wat onze bruidsparen zeggen",
+        "subtitle": "Elk koppel dat bij ons vierde, werd verliefd op de sfeer. Word deel van ons verhaal.",
+        "items": {
+            "0": {
+                "name": "Julia M.",
+                "role": "Bruiloftsgast",
+                "text": "Jullie hebben onze bruiloft gewoonweg prachtig gemaakt. Voordat we voor Kupferhof kozen, spraken we met veel locaties, maar dit was absoluut de beste keuze. Adembenemend!"
+            },
+            "1": {
+                "name": "Thomas & Sarah",
+                "role": "Bruidspaar",
+                "text": "Samenwerken met het Kupferhof-team was een absoluut genoegen!! Ze waren ongelooflijk attent, georganiseerd en zorgden ervoor dat onze bruiloft vlekkeloos verliep."
+            },
+            "2": {
+                "name": "Michael S.",
+                "role": "Bedrijfsevenement",
+                "text": "Het team overtrof al onze verwachtingen. Van de indrukwekkende locatie tot de onberispelijke service, alles was perfect. Onze gasten praten er nog steeds over!"
+            }
+        }
+    },
+    "portfolio": {
+        "title": "Onze Impressies",
+        "subtitle": "Momenten voor de eeuwigheid",
+        "overlay": {
+            "gallery": "Bekijk Galerij",
+            "details": "Bekijk Details",
+            "inspiration": "Inspiratie"
+        },
+        "instagram": "Meer foto's op Instagram"
+    },
+    "contact": {
+        "title": "Plan Uw Perfecte Dag",
+        "subtitle": "Klaar voor uw droombruiloft in Kupferhof Rosental? Vul het formulier in en wij nemen binnen 24 uur contact met u op.",
+        "info": {
+            "visit": "Bezoek Ons",
+            "call": "Bel Ons",
+            "email": "E-mail"
+        },
+        "form": {
+            "name": "Uw Naam *",
+            "name_ph": "Jan Janssen",
+            "email": "E-mailadres *",
+            "email_ph": "jan@voorbeeld.nl",
+            "phone": "Telefoonnummer",
+            "phone_ph": "+49 123 456 789",
+            "date": "Geplande Datum",
+            "guests": "Aantal Gasten",
+            "guests_ph": "Maak een keuze...",
+            "items": [
+                "1-50 Gasten",
+                "51-100 Gasten",
+                "101-150 Gasten",
+                "151-200 Gasten",
+                "200+ Gasten"
+            ],
+            "message": "Uw Bericht *",
+            "message_ph": "Vertel ons over uw droombruiloft...",
+            "privacy": "Ik heb het <1>Privacybeleid</1> gelezen en ga ermee akkoord dat mijn gegevens permanent worden opgeslagen voor contact en vragen.*",
+            "submit": "Aanvraag Versturen",
+            "success": "Bedankt voor uw aanvraag! Wij nemen spoedig contact met u op."
+        }
+    },
+    "events": {
+        "seo": {
+            "title": "Exclusieve Evenementen & Conferenties | Kupferhof Rosental",
+            "description": "Bedrijfsevenementen, conferenties of privéfeesten. Kupferhof Rosental biedt de perfecte setting voor elk soort evenement in Stolberg."
+        },
+        "header": {
+            "title": "Evenementen & Conferenties.",
+            "subtitle": "Ruimte voor innovatie, ontmoetingen en onvergetelijke momenten. Professioneel. Stijlvol. Uniek."
+        },
+        "intro": {
+            "tag": "Business ontmoet Geschiedenis",
+            "title": "Werken in een<br />Nieuwe Sfeer.",
+            "text": "Verlaat de gebaande paden en vind nieuwe inspiratie binnen de historische muren van Kupferhof Rosental. Of het nu gaat om een strategische vergadering, een creatieve workshop of een glamoureus bedrijfsjubileum – onze ambiance bevordert uitwisseling en zorgt voor blijvende indrukken.",
+            "list": {
+                "0": "Exclusiviteit voor uw groep",
+                "1": "State-of-the-art conferentietechnologie",
+                "2": "Flexibele ruimteconcepten"
+            },
+            "imagequote": "\"De perfecte plek om nieuwe perspectieven te ontwikkelen.\""
+        },
+        "formats": {
+            "title": "Het Juiste Formaat voor Elke Gelegenheid",
+            "cards": {
+                "0": {
+                    "title": "Conferenties & Seminars",
+                    "desc": "Geconcentreerd werken weg van het dagelijkse kantoorleven. Lichte ruimtes en weidse uitzichten zorgen voor frisse gedachten."
+                },
+                "1": {
+                    "title": "Bedrijfsfeesten",
+                    "desc": "Kerstfeesten, zomerfestivals of jubilea. Vier successen in een omgeving die waardering uitdrukt."
+                },
+                "2": {
+                    "title": "Privéfeesten",
+                    "desc": "Verjaardagen, dopen of communies. Wij maken van uw familiefeest een onvergetelijke herinnering."
+                }
+            }
+        },
+        "cta": {
+            "title": "Klaar voor Uw Volgende Evenement?",
+            "text": "Neem contact met ons op voor een vrijblijvende offerte. Ons evenemententeam ondersteunt u van het eerste idee tot de perfecte uitvoering.",
+            "button": "Nu Aanvragen"
+        }
+    },
+    "weddings": {
+        "seo": {
+            "title": "Exclusieve Bruiloften in Kupferhof Rosental | Stolberg",
+            "description": "Vier uw droombruiloft in een historische ambiance. Op maat gemaakte concepten, voortreffelijke catering en onvergetelijke momenten."
+        },
+        "header": {
+            "title": "Uw Bruiloft.",
+            "subtitle": "Een dag zo uniek als uw liefde. Vier in de historische ambiance van Kupferhof Rosental."
+        },
+        "intro": {
+            "tag": "Het Begin van een Reis",
+            "title": "Geschiedenis Schrijven.<br />Samen.",
+            "text1": "Er zijn plaatsen die je voor altijd in je hart sluit. Kupferhof Rosental is zo'n plek. Gelegen in het hart van Stolberg, combineren onze historische muren eeuwenoude traditie met moderne elegantie.",
+            "text2": "Of het nu gaat om een intieme ceremonie in kleine kring of een bruisend feest tot in de vroege uurtjes – wij creëren de perfecte setting voor uw grote dag. Laat u betoveren door de magie van onze binnenplaats en geniet van de luxe gastheer te zijn op een van de meest exclusieve locaties in de regio.",
+            "guests": "Gasten tot 150 personen"
+        },
+        "features": {
+            "title": "Alles voor Uw Perfecte Dag",
+            "subtitle": "Wij zorgen voor de details zodat u zich kunt concentreren op het belangrijkste: Ja zeggen.",
+            "cards": {
+                "0": {
+                    "title": "Vrije Ceremonie",
+                    "desc": "Onze romantische binnenplaats of stijlvolle zalen bieden het perfecte decor voor uw emotionele ceremonie."
+                },
+                "1": {
+                    "title": "Voortreffelijke Catering",
+                    "desc": "Van champagnereceptie tot middernachtsnack – onze culinaire partners verwennen u en uw gasten op het hoogste niveau."
+                },
+                "2": {
+                    "title": "Feest tot de Ochtend",
+                    "desc": "Geen sluitingstijd, geen compromissen. Onze moderne licht- en geluidstechniek zorgt voor het feest van uw leven."
+                }
+            }
+        },
+        "parallax": {
+            "tag": "Momenten voor de Eeuwigheid",
+            "title": "Een Viering van de Liefde.",
+            "button": "Bekijk Galerij"
+        },
+        "rooms": {
+            "tag": "De Ruimtes",
+            "title": "Ruimte voor Uw Dromen",
+            "items": {
+                "0": {
+                    "title": "Grote Balzaal",
+                    "desc": "Tot 120 personen zittend. Hoge plafonds, ramen van vloer tot plafond en directe toegang tot het terras."
+                },
+                "1": {
+                    "title": "Openhaardkamer",
+                    "desc": "Voor een intieme receptie of als loungehoek. Gezellige sfeer met een echte open haard."
+                },
+                "2": {
+                    "title": "Binnenplaats",
+                    "desc": "De perfecte plek voor uw champagnereceptie of een ceremonie in de open lucht."
+                }
+            }
+        }
+    },
+    "location": {
+        "seo": {
+            "title": "De Locatie | Kupferhof Rosental",
+            "description": "Ontdek de ruimtes van Kupferhof Rosental. Historische charme ontmoet modern comfort in Stolberg."
+        },
+        "header": {
+            "title": "De Kupferhof.",
+            "subtitle": "Een architectonisch juweel in het hart van Stolberg. Ontdek ruimtes met karakter."
+        },
+        "intro": {
+            "tag": "Architectuur & Geschiedenis",
+            "title": "Muren die Verhalen Vertellen.",
+            "text": "Kupferhof Rosental is meer dan alleen een gebouw. Het is een getuigenis van het bloeiende kopermeester-tijdperk van Stolberg. Liefdevol gerestaureerd, combineert het vandaag de ruwe charme van het industriële monument met de elegantie van een moderne evenementenlocatie."
+        },
+        "rooms": {
+            "0": {
+                "title": "De Grote Balzaal",
+                "desc": "Ons middelpunt. Met zijn hoge plafonds, de edele parketvloer en de lichtovergoten ramen biedt de balzaal een sfeer van tijdloze elegantie. Ideaal voor grote banketten, bruiloften en lezingen.",
+                "details": [
+                    "200 m² Oppervlakte",
+                    "Daglicht",
+                    "tot 120 personen",
+                    "Airconditioning"
+                ]
+            },
+            "1": {
+                "title": "De Openhaardkamer",
+                "desc": "Intiem en gezellig. De openhaardkamer met zijn open haard is de perfecte plek voor kleinere gezelschappen, recepties of als stijlvolle lounge tijdens uw grote feest.",
+                "details": [
+                    "80 m² Oppervlakte",
+                    "Toegang Terras",
+                    "tot 40 personen"
+                ]
+            },
+            "2": {
+                "title": "De Binnenplaats",
+                "desc": "Een stukje Italië in Stolberg. Onze beschermde binnenplaats biedt privacy in de open lucht. Perfect voor vrije bruiloften, champagnerecepties of ontspannen samenzijn op zwoele zomeravonden.",
+                "details": [
+                    "Buitenruimte",
+                    "Deels Overdekt",
+                    "tot 150 personen"
+                ]
+            }
+        },
+        "visit": {
+            "title": "Bezoek Ons",
+            "text": "Beelden zeggen veel, maar het gevoel om in onze ruimtes te staan is niet te vervangen. Maak een afspraak voor een bezichtiging."
+        }
+    },
+    "catering": {
+        "seo": {
+            "title": "Culinair & Catering | Kupferhof Rosental",
+            "description": "Genietmomenten voor uw evenement. Exquise catering, verfijnde wijnen en eersteklas service in Kupferhof Rosental."
+        },
+        "header": {
+            "title": "Culinair.",
+            "subtitle": "Liefde gaat door de maag. Laat u en uw gasten verwennen."
+        },
+        "intro": {
+            "tag": "Smaak & Esthetiek",
+            "title": "Een Feest voor de Zintuigen.",
+            "text1": "Wij geloven dat goed eten de ziel is van elk feest. Daarom werken we uitsluitend samen met geselecteerde cateringpartners die onze hoge eisen aan kwaliteit, versheid en creativiteit delen.",
+            "text2": "Of het nu gaat om een rustieke BBQ op de binnenplaats, een elegant 5-gangenmenu of een trendy walking dinner – wij creëren samen met u het perfecte culinaire concept voor uw evenement."
+        },
+        "food": {
+            "0": {
+                "title": "Fine Dining"
+            },
+            "1": {
+                "title": "Flying Buffet"
+            },
+            "2": {
+                "title": "BBQ & Grill"
+            },
+            "3": {
+                "title": "Sweets & Cakes"
+            }
+        },
+        "features": {
+            "0": {
+                "title": "Top Chefs",
+                "desc": "Ervaren keukenteams"
+            },
+            "1": {
+                "title": "Individueel",
+                "desc": "Menu naar uw wensen"
+            },
+            "2": {
+                "title": "Wijnarrangement",
+                "desc": "Sommelier-selectie"
+            },
+            "3": {
+                "title": "Service",
+                "desc": "Attent & Hartelijk"
+            }
+        }
+    },
+    "accommodation": {
+        "seo": {
+            "title": "Overnachten | Kupferhof Rosental",
+            "description": "Ontspan in onze exclusieve suites. Historische charme ontmoet modern comfort. Overnachten in Kupferhof Rosental."
+        },
+        "header": {
+            "title": "Suites & Kamers.",
+            "subtitle": "Rust vinden na een rauschend feest. Droom temidden van geschiedenis."
+        },
+        "intro": "Onze gastenkamers verenigen het karakter van de historische Kupferhof met eigentijdse luxe. Elke kamer is uniek, liefdevol ingericht met geselecteerde materialen en oog voor detail.",
+        "suite": {
+            "tag": "Het Hoogtepunt",
+            "title": "De Bruidssuite",
+            "desc": "Royaal opgezet en lichtovergoten. Onze bruidssuite biedt het bruidspaar een toevluchtsoord van de buitencategorie. Met vrijstaand bad, King-Size bed en een adembenemend uitzicht op de binnenplaats.",
+            "features": [
+                "High-Speed Wifi",
+                "Vrijstaand Bad",
+                "Nespresso Machine",
+                "King-Size Bed"
+            ]
+        },
+        "guest": {
+            "tag": "Voor Gasten",
+            "title": "Gastenkamers",
+            "desc": "Voor uw naaste familie en vrienden staan verdere stijlvolle tweepersoonskamers ter beschikking. Zo kunt u het feest samen bij het ontbijt de volgende ochtend laten uitklinken.",
+            "features": [
+                "High-Speed Wifi",
+                "Regendouche",
+                "Thee & Water",
+                "Queen-Size Bed"
+            ]
+        }
+    },
+    "aboutPage": {
+        "seo": {
+            "title": "Over Ons | Kupferhof Rosental",
+            "description": "Ontmoet het team achter Kupferhof Rosental. Onze filosofie, onze geschiedenis en onze passie voor evenementen."
+        },
+        "header": {
+            "title": "Over Ons.",
+            "subtitle": "Een plek met geschiedenis. Een team met passie."
+        },
+        "intro": {
+            "title": "Onze Filosofie",
+            "text1": "Gastvrijheid is voor ons meer dan alleen een woord – het is een houding. Wij zien onszelf niet alleen als verhuurders van een locatie, maar als gastheren met passie.",
+            "text2": "Ons doel is om voor elke gast een sfeer te creëren waarin hij zich welkom en geborgen voelt. Wij houden van details, wij waarderen kwaliteit en wij leven voor het moment waarop een planning verandert in een onvergetelijke ervaring."
+        },
+        "team": {
+            "caption": "Het team van Kupferhof Rosental kijkt ernaar uit u te ontmoeten."
+        },
+        "history": {
+            "title": "Historie",
+            "text": "Kupferhof Rosental kijkt terug op een eeuwenoude geschiedenis. Ooit gebouwd als productielocatie voor messing, getuigen de muren vandaag de dag nog steeds van de bedrijvigheid van vervlogen tijden. Zorgvuldige restauratie heeft de industriële charme behouden en gecombineerd met moderne elegantie."
+        },
+        "sustainability": {
+            "title": "Duurzaamheid",
+            "text": "Wij handelen verantwoordelijk. Regionale producten voor catering, energiezuinige technologie en respectvolle omgang met de historische bouwsubstantie zijn voor ons vanzelfsprekend."
+        }
+    },
+    "contactPage": {
+        "seo": {
+            "title": "Contact & Aanvraag | Kupferhof Rosental",
+            "description": "Stuur ons uw aanvraag voor bruiloften, evenementen of conferenties. Wij adviseren u graag persoonlijk."
+        },
+        "header": {
+            "title": "Contact.",
+            "subtitle": "Wij kijken ernaar uit van u te horen en samen uw evenement te plannen."
+        },
+        "info": {
+            "title": "Laten we praten",
+            "text": "Elk evenement begint met een eerste gesprek. Vertel ons over uw ideeën of maak een afspraak voor een bezichtiging om de magie van de Kupferhof zelf te ervaren.",
+            "phone": "Telefoon",
+            "email": "E-mail",
+            "address": "Adres"
+        },
+        "form": {
+            "title": "Aanvraag versturen",
+            "name": "Naam",
+            "namePh": "Uw Naam",
+            "email": "E-mail",
+            "emailPh": "uw@email.com",
+            "phone": "Telefoon",
+            "phonePh": "Terugbelnummer",
+            "eventType": "Type Evenement",
+            "select": {
+                "placeholder": "Maak een keuze...",
+                "wedding": "Bruiloft",
+                "corporate": "Bedrijfsfeest",
+                "conference": "Conferentie",
+                "private": "Privéfeest",
+                "other": "Overig"
+            },
+            "message": "Bericht",
+            "messagePh": "Vertel ons meer over uw plannen...",
+            "privacy": "Privacy",
+            "privacyText": "Ik ga ermee akkoord dat mijn gegevens voor contact en toewijzing voor eventuele vragen permanent worden opgeslagen.",
+            "submit": "Bericht versturen",
+            "success": "Bedankt voor uw aanvraag! Wij nemen spoedig contact met u op."
+        }
+    },
+    "impressum": {
+        "seo": {
+            "title": "Colofon | Kupferhof Rosental"
+        },
+        "header": {
+            "title": "Colofon.",
+            "subtitle": "Juridische informatie en gegevens volgens § 5 TMG."
+        },
+        "tmg": {
+            "title": "Informatie volgens § 5 TMG"
+        },
+        "contact": {
+            "title": "Contact"
+        },
+        "representative": {
+            "title": "Vertegenwoordigd door",
+            "text": "[Naam van de directie hier invoegen]"
+        },
+        "register": {
+            "title": "Registerinschrijving",
+            "text": "Inschrijving in het handelsregister.<br />Registerrechtbank: [Rechtbank]<br />Registernummer: [HRB Nummer]"
+        },
+        "vat": {
+            "title": "BTW-ID",
+            "text": "Omzetbelasting-identificatienummer volgens § 27 a omzetbelastingwet:<br />[DE XXXXXXXX]"
+        },
+        "disclaimer": {
+            "title": "Disclaimer",
+            "content_liability": {
+                "title": "Aansprakelijkheid voor Inhoud",
+                "text": "Als dienstverlener zijn wij verantwoordelijk voor onze eigen inhoud op deze pagina's in overeenstemming met de algemene wetten volgens § 7 Abs.1 TMG. Volgens §§ 8 tot 10 TMG zijn wij als dienstverlener echter niet verplicht om doorgegeven of opgeslagen informatie van derden te controleren of omstandigheden te onderzoeken die wijzen op illegale activiteiten."
+            },
+            "link_liability": {
+                "title": "Aansprakelijkheid voor Links",
+                "text": "Ons aanbod bevat links naar externe websites van derden, op de inhoud waarvan wij geen invloed hebben. Daarom kunnen wij voor deze externe inhoud geen aansprakelijkheid aanvaarden. De betreffende aanbieder of exploitant van de pagina's is altijd verantwoordelijk voor de inhoud van de gelinkte pagina's."
+            },
+            "copyright": {
+                "title": "Auteursrecht",
+                "text": "De door de websitebeheerders gemaakte inhoud en werken op deze pagina's vallen onder het Duitse auteursrecht. Vermenigvuldiging, verwerking, verspreiding en elke vorm van exploitatie buiten de grenzen van het auteursrecht vereisen de schriftelijke toestemming van de betreffende auteur of maker."
+            }
+        }
+    },
+    "agb": {
+        "seo": {
+            "title": "AV | Kupferhof Rosental"
+        },
+        "header": {
+            "title": "AV.",
+            "subtitle": "Algemene Voorwaarden voor Evenementen."
+        },
+        "intro": {
+            "title": "Algemene Voorwaarden",
+            "text": "Voor de verhuur van conferentie-, banket- en evenementenzalen van Kupferhof Rosental voor het houden van evenementen evenals voor alle verdere bijbehorende diensten en leveringen."
+        },
+        "sections": {
+            "1": {
+                "title": "1. Toepassingsgebied",
+                "text1": "1.1 Deze algemene voorwaarden zijn van toepassing op overeenkomsten voor de verhuur van conferentie-, banket- en evenementenzalen van Kupferhof Rosental voor het houden van evenementen evenals voor alle verdere bijbehorende diensten en leveringen van de organisator.",
+                "text2": "1.2 De onderverhuur of wederverhuur van de ter beschikking gestelde ruimtes evenals de uitnodiging voor sollicitatiegesprekken, verkoop- of soortgelijke evenementen behoeven de voorafgaande schriftelijke toestemming."
+            },
+            "2": {
+                "title": "2. Contractsluiting, Partners, Aansprakelijkheid",
+                "text1": "2.1 Het contract komt tot stand door de aanvaarding van de aanvraag van de klant door Kupferhof Rosental.",
+                "text2": "2.2 De contractpartners zijn Kupferhof Rosental en de klant."
+            },
+            "3": {
+                "title": "3. Diensten, Prijzen, Betaling, Verrekening",
+                "text1": "3.1 Kupferhof Rosental is verplicht om de door de klant bestelde en door hem toegezegde diensten te leveren.",
+                "text2": "3.2 De klant is verplicht om de overeengekomen of geldende prijzen te betalen voor deze en andere gebruikte diensten."
+            }
+        }
+    }
+}

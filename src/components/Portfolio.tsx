@@ -1,8 +1,11 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Instagram } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Portfolio = () => {
+    const { t } = useTranslation();
+
     return (
         <section id="portfolio" className="py-24 bg-white">
             <div className="max-w-7xl mx-auto px-6">
@@ -13,8 +16,8 @@ const Portfolio = () => {
                     transition={{ duration: 0.8 }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-4xl md:text-5xl font-medium text-stone-900 font-serif tracking-tight mb-4">Unsere Impressionen</h2>
-                    <p className="text-lg text-stone-500">Momente für die Ewigkeit</p>
+                    <h2 className="text-4xl md:text-5xl font-medium text-stone-900 font-serif tracking-tight mb-4">{t('portfolio.title')}</h2>
+                    <p className="text-lg text-stone-500">{t('portfolio.subtitle')}</p>
                 </motion.div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -32,7 +35,7 @@ const Portfolio = () => {
                             loading="lazy"
                         />
                         <div className="absolute inset-0 bg-stone-900/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                            <span className="text-white font-serif text-xl tracking-wide border-b border-white pb-1">Galerie ansehen</span>
+                            <span className="text-white font-serif text-xl tracking-wide border-b border-white pb-1">{t('portfolio.overlay.gallery')}</span>
                         </div>
                     </motion.div>
 
@@ -50,7 +53,7 @@ const Portfolio = () => {
                             loading="lazy"
                         />
                         <div className="absolute inset-0 bg-stone-900/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                            <span className="text-white font-serif text-xl tracking-wide border-b border-white pb-1">Details ansehen</span>
+                            <span className="text-white font-serif text-xl tracking-wide border-b border-white pb-1">{t('portfolio.overlay.details')}</span>
                         </div>
                     </motion.div>
 
@@ -68,14 +71,14 @@ const Portfolio = () => {
                             loading="lazy"
                         />
                         <div className="absolute inset-0 bg-stone-900/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                            <span className="text-white font-serif text-xl tracking-wide border-b border-white pb-1">Inspiration</span>
+                            <span className="text-white font-serif text-xl tracking-wide border-b border-white pb-1">{t('portfolio.overlay.inspiration')}</span>
                         </div>
                     </motion.div>
                 </div>
 
                 <div className="text-center mt-12">
                     <a href="#contact-form" className="inline-flex items-center text-rosental-500 hover:text-rosental-600 font-medium transition-colors">
-                        Mehr Bilder auf Instagram <Instagram className="w-4 h-4 ml-2" />
+                        {t('portfolio.instagram')} <Instagram className="w-4 h-4 ml-2" />
                     </a>
                 </div>
             </div>

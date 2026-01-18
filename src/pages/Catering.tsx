@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import ModernPageHeader from '../components/ModernPageHeader';
@@ -5,17 +6,19 @@ import Contact from '../components/Contact';
 import { Utensils, Wine, Coffee, ChefHat } from 'lucide-react';
 
 const Catering = () => {
+    const { t } = useTranslation();
+
     return (
         <>
             <Helmet>
-                <title>Kulinarik & Catering | Kupferhof Rosental</title>
-                <meta name="description" content="Genussmomente für Ihr Event. Exquisites Catering, erlesene Weine und erstklassiger Service im Kupferhof Rosental." />
+                <title>{t('catering.seo.title')}</title>
+                <meta name="description" content={t('catering.seo.description')} />
                 <link rel="canonical" href="https://www.kupferhof-rosental.de/kulinarik" />
             </Helmet>
 
             <ModernPageHeader
-                title="Kulinarik."
-                subtitle="Liebe geht durch den Magen. Lassen Sie sich und Ihre Gäste verwöhnen."
+                title={t('catering.header.title')}
+                subtitle={t('catering.header.subtitle')}
             />
 
             {/* Intro Sections */}
@@ -40,15 +43,15 @@ const Catering = () => {
                             viewport={{ once: true }}
                             transition={{ duration: 0.8 }}
                         >
-                            <span className="text-rosental-500 font-serif italic text-2xl mb-4 block">Geschmack & Ästhetik</span>
+                            <span className="text-rosental-500 font-serif italic text-2xl mb-4 block">{t('catering.intro.tag')}</span>
                             <h2 className="text-4xl font-serif text-rosental-950 mb-6 leading-tight">
-                                Ein Fest für die Sinne.
+                                {t('catering.intro.title')}
                             </h2>
                             <p className="text-stone-600 mb-6 leading-relaxed">
-                                Wir glauben, dass gutes Essen die Seele eines jeden Festes ist. Deshalb arbeiten wir ausschließlich mit ausgewählten Catering-Partnern zusammen, die unseren hohen Anspruch an Qualität, Frische und Kreativität teilen.
+                                {t('catering.intro.text1')}
                             </p>
                             <p className="text-stone-600 leading-relaxed mb-8">
-                                Ob rustikales BBQ im Innenhof, ein elegantes 5-Gänge-Menü oder trendiges Flying Buffet – wir kreieren gemeinsam mit Ihnen das perfekte kulinarische Konzept für Ihre Veranstaltung.
+                                {t('catering.intro.text2')}
                             </p>
                         </motion.div>
                     </div>
@@ -60,10 +63,10 @@ const Catering = () => {
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         {[
-                            { title: "Fine Dining", img: "https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" },
-                            { title: "Flying Buffet", img: "https://images.unsplash.com/photo-1587574293340-e0011c4e8ecf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" },
-                            { title: "BBQ & Grill", img: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" },
-                            { title: "Sweets & Cakes", img: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" },
+                            { title: t('catering.food.0.title'), img: "https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" },
+                            { title: t('catering.food.1.title'), img: "https://images.unsplash.com/photo-1587574293340-e0011c4e8ecf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" },
+                            { title: t('catering.food.2.title'), img: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" },
+                            { title: t('catering.food.3.title'), img: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" },
                         ].map((item, index) => (
                             <motion.div
                                 key={index}
@@ -95,29 +98,29 @@ const Catering = () => {
                             <div className="w-16 h-16 mx-auto bg-rosental-50 rounded-full flex items-center justify-center mb-4 text-rosental-500">
                                 <ChefHat className="w-8 h-8" />
                             </div>
-                            <h3 className="font-serif text-lg mb-2">Top Chefs</h3>
-                            <p className="text-sm text-stone-500">Erfahrene Küchenteams</p>
+                            <h3 className="font-serif text-lg mb-2">{t('catering.features.0.title')}</h3>
+                            <p className="text-sm text-stone-500">{t('catering.features.0.desc')}</p>
                         </div>
                         <div>
                             <div className="w-16 h-16 mx-auto bg-rosental-50 rounded-full flex items-center justify-center mb-4 text-rosental-500">
                                 <Utensils className="w-8 h-8" />
                             </div>
-                            <h3 className="font-serif text-lg mb-2">Individuell</h3>
-                            <p className="text-sm text-stone-500">Menü nach Ihren Wünschen</p>
+                            <h3 className="font-serif text-lg mb-2">{t('catering.features.1.title')}</h3>
+                            <p className="text-sm text-stone-500">{t('catering.features.1.desc')}</p>
                         </div>
                         <div>
                             <div className="w-16 h-16 mx-auto bg-rosental-50 rounded-full flex items-center justify-center mb-4 text-rosental-500">
                                 <Wine className="w-8 h-8" />
                             </div>
-                            <h3 className="font-serif text-lg mb-2">Weinbegleitung</h3>
-                            <p className="text-sm text-stone-500">Sommelier-Auswahl</p>
+                            <h3 className="font-serif text-lg mb-2">{t('catering.features.2.title')}</h3>
+                            <p className="text-sm text-stone-500">{t('catering.features.2.desc')}</p>
                         </div>
                         <div>
                             <div className="w-16 h-16 mx-auto bg-rosental-50 rounded-full flex items-center justify-center mb-4 text-rosental-500">
                                 <Coffee className="w-8 h-8" />
                             </div>
-                            <h3 className="font-serif text-lg mb-2">Service</h3>
-                            <p className="text-sm text-stone-500">Aufmerksam & Herzlich</p>
+                            <h3 className="font-serif text-lg mb-2">{t('catering.features.3.title')}</h3>
+                            <p className="text-sm text-stone-500">{t('catering.features.3.desc')}</p>
                         </div>
                     </div>
                 </div>

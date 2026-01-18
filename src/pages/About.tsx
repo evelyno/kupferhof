@@ -1,20 +1,23 @@
+import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import ModernPageHeader from '../components/ModernPageHeader';
 import Contact from '../components/Contact';
 
 const About = () => {
+    const { t } = useTranslation();
+
     return (
         <>
             <Helmet>
-                <title>Über Uns | Kupferhof Rosental</title>
-                <meta name="description" content="Lernen Sie das Team hinter dem Kupferhof Rosental kennen. Unsere Philosophie, unsere Geschichte und unsere Leidenschaft für Events." />
+                <title>{t('aboutPage.seo.title')}</title>
+                <meta name="description" content={t('aboutPage.seo.description')} />
                 <link rel="canonical" href="https://www.kupferhof-rosental.de/ueber-uns" />
             </Helmet>
 
             <ModernPageHeader
-                title="Über Uns."
-                subtitle="Ein Ort mit Geschichte. Ein Team mit Leidenschaft."
+                title={t('aboutPage.header.title')}
+                subtitle={t('aboutPage.header.subtitle')}
             />
 
             <section className="py-24 bg-white">
@@ -25,12 +28,12 @@ const About = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 0.8 }}
                     >
-                        <h2 className="text-3xl font-serif text-rosental-950 mb-8">Unsere Philosophie</h2>
+                        <h2 className="text-3xl font-serif text-rosental-950 mb-8">{t('aboutPage.intro.title')}</h2>
                         <p className="text-stone-600 text-lg leading-relaxed mb-6">
-                            Gastfreundschaft ist für uns mehr als nur ein Wort – es ist eine Haltung. Wir verstehen uns nicht nur als Vermieter einer Location, sondern als Gastgeber aus Leidenschaft.
+                            {t('aboutPage.intro.text1')}
                         </p>
                         <p className="text-stone-600 text-lg leading-relaxed mb-12">
-                            Unser Ziel ist es, für jeden Gast eine Atmosphäre zu schaffen, in der er sich willkommen und geborgen fühlt. Wir lieben Details, wir schätzen Qualität und wir leben für den Moment, in dem aus einer Planung ein unvergessliches Erlebnis wird.
+                            {t('aboutPage.intro.text2')}
                         </p>
                     </motion.div>
 
@@ -46,21 +49,20 @@ const About = () => {
                             alt="Das Team"
                             className="w-full rounded-sm shadow-xl"
                         />
-                        <p className="text-sm text-stone-500 mt-4 text-center italic">Das Team des Kupferhof Rosental freut sich auf Sie.</p>
+                        <p className="text-sm text-stone-500 mt-4 text-center italic">{t('aboutPage.team.caption')}</p>
                     </motion.div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                         <div>
-                            <h3 className="text-2xl font-serif text-rosental-900 mb-4">Historie</h3>
+                            <h3 className="text-2xl font-serif text-rosental-900 mb-4">{t('aboutPage.history.title')}</h3>
                             <p className="text-stone-600 leading-relaxed">
-                                Der Kupferhof Rosental blickt auf eine jahrhundertelange Geschichte zurück. Einst als Produktionsstätte für Messing errichtet, zeugen die Mauern noch heute vom fleißigen Treiben vergangener Epochen.
-                                Die sorgfältige Restaurierung hat den industriellen Charme bewahrt und mit moderner Eleganz verbunden.
+                                {t('aboutPage.history.text')}
                             </p>
                         </div>
                         <div>
-                            <h3 className="text-2xl font-serif text-rosental-900 mb-4">Nachhaltigkeit</h3>
+                            <h3 className="text-2xl font-serif text-rosental-900 mb-4">{t('aboutPage.sustainability.title')}</h3>
                             <p className="text-stone-600 leading-relaxed">
-                                Wir handeln verantwortungsbewusst. Regionale Produkte beim Catering, energieeffiziente Technik und ein respektvoller Umgang mit der historischen Bausubstanz sind für uns selbstverständlich.
+                                {t('aboutPage.sustainability.text')}
                             </p>
                         </div>
                     </div>

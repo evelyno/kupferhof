@@ -1,57 +1,60 @@
 import { Helmet } from 'react-helmet-async';
+import { useTranslation } from 'react-i18next';
 import ModernPageHeader from '../../components/ModernPageHeader';
 
 const AGB = () => {
+    const { t } = useTranslation();
+
     return (
         <>
             <Helmet>
-                <title>AGB | Kupferhof Rosental</title>
+                <title>{t('agb.seo.title')}</title>
                 <meta name="robots" content="noindex" />
                 <link rel="canonical" href="https://www.kupferhof-rosental.de/agb" />
             </Helmet>
 
             <ModernPageHeader
-                title="AGB."
-                subtitle="Allgemeine Geschäftsbedingungen für Veranstaltungen."
+                title={t('agb.header.title')}
+                subtitle={t('agb.header.subtitle')}
             />
 
             <section className="py-24 bg-white">
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="max-w-3xl font-sans text-stone-600 leading-relaxed space-y-10">
                         <div>
-                            <h2 className="text-2xl font-serif text-stone-900 mb-6">Allgemeine Geschäftsbedingungen</h2>
+                            <h2 className="text-2xl font-serif text-stone-900 mb-6">{t('agb.intro.title')}</h2>
                             <p className="mb-4 text-lg">
-                                Für die Überlassung von Konferenz-, Bankett- und Veranstaltungsräumen des Kupferhof Rosental zur Durchführung von Veranstaltungen sowie für alle damit zusammenhängenden weiteren Leistungen und Lieferungen.
+                                {t('agb.intro.text')}
                             </p>
                         </div>
 
                         <div className="bg-rosental-50/50 p-8 rounded-xl border border-rosental-100">
-                            <h3 className="text-lg font-bold mb-4 text-rosental-900">1. Geltungsbereich</h3>
+                            <h3 className="text-lg font-bold mb-4 text-rosental-900">{t('agb.sections.1.title')}</h3>
                             <p className="mb-4">
-                                1.1 Diese Geschäftsbedingungen gelten für Verträge über die mietweise Überlassung von Konferenz-, Bankett- und Veranstaltungsräumen des Kupferhof Rosental zur Durchführung von Veranstaltungen sowie für alle damit zusammenhängenden weiteren Leistungen und Lieferungen des Veranstalters.
+                                {t('agb.sections.1.text1')}
                             </p>
                             <p className="mb-0">
-                                1.2 Die Unter- oder Weitervermietung der überlassenen Räume sowie die Einladung zu Vorstellungsgesprächen, Verkaufs- oder ähnlichen Veranstaltungen bedürfen der vorherigen schriftlichen Zustimmung.
+                                {t('agb.sections.1.text2')}
                             </p>
                         </div>
 
                         <div className="bg-rosental-50/50 p-8 rounded-xl border border-rosental-100">
-                            <h3 className="text-lg font-bold mb-4 text-rosental-900">2. Vertragsabschluss, -partner, Haftung</h3>
+                            <h3 className="text-lg font-bold mb-4 text-rosental-900">{t('agb.sections.2.title')}</h3>
                             <p className="mb-4">
-                                2.1 Der Vertrag kommt durch die Annahme des Antrags des Kunden durch den Kupferhof Rosental zustande.
+                                {t('agb.sections.2.text1')}
                             </p>
                             <p className="mb-0">
-                                2.2 Vertragspartner sind der Kupferhof Rosental und der Kunde.
+                                {t('agb.sections.2.text2')}
                             </p>
                         </div>
 
                         <div className="bg-rosental-50/50 p-8 rounded-xl border border-rosental-100">
-                            <h3 className="text-lg font-bold mb-4 text-rosental-900">3. Leistungen, Preise, Zahlung, Aufrechnung</h3>
+                            <h3 className="text-lg font-bold mb-4 text-rosental-900">{t('agb.sections.3.title')}</h3>
                             <p className="mb-4">
-                                3.1 Der Kupferhof Rosental ist verpflichtet, die vom Kunden bestellten und von ihm zugesagten Leistungen zu erbringen.
+                                {t('agb.sections.3.text1')}
                             </p>
                             <p className="mb-0">
-                                3.2 Der Kunde ist verpflichtet, die für diese und weitere in Anspruch genommene Leistungen vereinbarten bzw. geltenden Preise zu zahlen.
+                                {t('agb.sections.3.text2')}
                             </p>
                         </div>
                     </div>

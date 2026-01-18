@@ -1,3 +1,4 @@
+import { useTranslation, Trans } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import ModernPageHeader from '../components/ModernPageHeader';
@@ -5,17 +6,19 @@ import Contact from '../components/Contact';
 import { Calendar, Users, Star, ArrowRight, Lightbulb } from 'lucide-react';
 
 const Events = () => {
+    const { t } = useTranslation();
+
     return (
         <>
             <Helmet>
-                <title>Exklusive Events & Tagungen | Kupferhof Rosental</title>
-                <meta name="description" content="Firmenevents, Tagungen oder private Feiern. Der Kupferhof Rosental bietet den perfekten Rahmen für Veranstaltungen jeder Art in Stolberg." />
+                <title>{t('events.seo.title')}</title>
+                <meta name="description" content={t('events.seo.description')} />
                 <link rel="canonical" href="https://www.kupferhof-rosental.de/veranstaltungen" />
             </Helmet>
 
             <ModernPageHeader
-                title="Events & Tagungen."
-                subtitle="Raum für Innovationen, Begegnungen und unvergessliche Momente. Professionell. Stilvoll. Einzigartig."
+                title={t('events.header.title')}
+                subtitle={t('events.header.subtitle')}
             />
 
             {/* Section 1: Intro / Corporate Vibe */}
@@ -29,23 +32,22 @@ const Events = () => {
                             transition={{ duration: 0.8 }}
                             className="order-2 lg:order-1"
                         >
-                            <span className="text-rosental-500 font-serif italic text-2xl mb-4 block">Business meets History</span>
+                            <span className="text-rosental-500 font-serif italic text-2xl mb-4 block">{t('events.intro.tag')}</span>
                             <h2 className="text-4xl md:text-5xl font-serif text-rosental-950 mb-8 leading-tight">
-                                Arbeiten in<br />neuer Atmosphäre.
+                                <Trans i18nKey="events.intro.title" components={{ br: <br /> }} />
                             </h2>
                             <p className="text-stone-600 mb-6 leading-relaxed text-lg">
-                                Verlassen Sie gewohnte Bahnen und finden Sie neue Inspiration in den historischen Mauern des Kupferhof Rosental.
-                                Ob konzentrierte Strategietagung, kreativer Workshop oder glanzvolles Firmenjubiläum – unser Ambiente fördert den Austausch und schafft bleibende Eindrücke.
+                                {t('events.intro.text')}
                             </p>
                             <ul className="space-y-4 mb-8 text-stone-600">
                                 <li className="flex items-center gap-3">
-                                    <Star className="w-5 h-5 text-rosental-500" /> Exklusivität für Ihre Gruppe
+                                    <Star className="w-5 h-5 text-rosental-500" /> {t('events.intro.list.0')}
                                 </li>
                                 <li className="flex items-center gap-3">
-                                    <Star className="w-5 h-5 text-rosental-500" /> Modernste Tagungstechnik
+                                    <Star className="w-5 h-5 text-rosental-500" /> {t('events.intro.list.1')}
                                 </li>
                                 <li className="flex items-center gap-3">
-                                    <Star className="w-5 h-5 text-rosental-500" /> Flexible Raumkonzepte
+                                    <Star className="w-5 h-5 text-rosental-500" /> {t('events.intro.list.2')}
                                 </li>
                             </ul>
                         </motion.div>
@@ -66,7 +68,7 @@ const Events = () => {
                                 </div>
                                 <div className="absolute -bottom-8 -left-8 bg-white p-6 shadow-lg max-w-xs hidden md:block">
                                     <p className="font-serif text-xl italic text-rosental-900 leading-snug">
-                                        "Der perfekte Ort, um neue Perspektiven zu entwickeln."
+                                        {t('events.intro.imagequote')}
                                     </p>
                                 </div>
                             </div>
@@ -79,24 +81,24 @@ const Events = () => {
             <section className="py-24 bg-rosental-50">
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="text-center max-w-3xl mx-auto mb-16">
-                        <h2 className="text-3xl md:text-4xl font-serif text-rosental-950 mb-6">Für jeden Anlass das passende Format</h2>
+                        <h2 className="text-3xl md:text-4xl font-serif text-rosental-950 mb-6">{t('events.formats.title')}</h2>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {[
                             {
-                                title: "Tagungen & Seminare",
-                                desc: "Konzentriertes Arbeiten abseits des Büroalltags. Helle Räume und Weitblick sorgen für frische Gedanken.",
+                                title: t('events.formats.cards.0.title'),
+                                desc: t('events.formats.cards.0.desc'),
                                 icon: <Lightbulb className="w-8 h-8 text-rosental-500" />
                             },
                             {
-                                title: "Firmenfeiern",
-                                desc: "Weihnachtsfeiern, Sommerfeste oder Jubiläen. Feiern Sie Erfolge in einem Rahmen, der Wertschätzung ausdrückt.",
+                                title: t('events.formats.cards.1.title'),
+                                desc: t('events.formats.cards.1.desc'),
                                 icon: <Users className="w-8 h-8 text-rosental-500" />
                             },
                             {
-                                title: "Private Feste",
-                                desc: "Geburtstage, Taufen oder Kommunionen. Wir machen aus Ihrem Familienfest eine unvergessliche Erinnerung.",
+                                title: t('events.formats.cards.2.title'),
+                                desc: t('events.formats.cards.2.desc'),
                                 icon: <Calendar className="w-8 h-8 text-rosental-500" />
                             }
                         ].map((item, index) => (
@@ -129,13 +131,13 @@ const Events = () => {
                     />
                 </div>
                 <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-                    <h2 className="text-3xl md:text-5xl font-serif mb-8">Bereit für Ihr nächstes Event?</h2>
+                    <h2 className="text-3xl md:text-5xl font-serif mb-8">{t('events.cta.title')}</h2>
                     <p className="text-lg text-stone-300 mb-10 max-w-2xl mx-auto">
-                        Kontaktieren Sie uns für ein unverbindliches Angebot. Unser Event-Team unterstützt Sie von der ersten Idee bis zur perfekten Umsetzung.
+                        {t('events.cta.text')}
                     </p>
                     <div className="flex justify-center gap-4">
                         <button className="bg-rosental-500 hover:bg-rosental-600 text-white px-8 py-4 rounded-sm font-medium transition-all inline-flex items-center gap-2">
-                            Jetzt anfragen <ArrowRight className="w-5 h-5" />
+                            {t('events.cta.button')} <ArrowRight className="w-5 h-5" />
                         </button>
                     </div>
                 </div>
