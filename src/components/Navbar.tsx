@@ -28,7 +28,13 @@ const Navbar = () => {
     };
 
     const isHome = location.pathname === '/';
-    const isDarkText = isScrolled || !isHome;
+    // Blog Posts (but not the index) also have a large Hero Image, so they should start transparent/white.
+    const isBlogPost = location.pathname.startsWith('/blog/') && location.pathname !== '/blog';
+
+    // Pages that start with a transparent header over a dark hero image
+    const isTransparentHeaderPage = isHome || isBlogPost;
+
+    const isDarkText = isScrolled || !isTransparentHeaderPage;
 
     return (
         <>
